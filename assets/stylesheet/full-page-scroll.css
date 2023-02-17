@@ -59,7 +59,7 @@ body, html {
 
 .dots li a.active:before {
 	content: '';
-	background-color: #FFFFFF;
+	background-color: #CDCECE;
 	width: 14px;
 	height: 14px;
 	margin-top: -4px;
