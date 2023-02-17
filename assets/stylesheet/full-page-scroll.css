@@ -79,7 +79,8 @@ body, html {
 .dots-left {
 	left: 10px;
 }
-.my_bg {
-    background-image: url("img/header.jpg");
-    background-repeat: no-repeat;
+.section1 {
+  background-image: url('img/header.jpg');
+  background-size: cover; /* 배경 이미지가 섹션 영역을 채우도록 크기를 조정 */
+  background-position: center; /* 배경 이미지를 섹션 가운데에 위치시킴 */
 }
