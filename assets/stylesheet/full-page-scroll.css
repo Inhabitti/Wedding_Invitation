@@ -84,3 +84,8 @@ body, html {
   background-size: cover; /* 배경 이미지가 섹션 영역을 채우도록 크기를 조정 */
   background-position: center; /* 배경 이미지를 섹션 가운데에 위치시킴 */
 }
+
+@font-face {
+    font-family: 'GowunDodum-Regular';
+    src: url('GowunDodum-Regular.ttf') format('truetype');
+}
