@@ -79,3 +79,7 @@ body, html {
 .dots-left {
 	left: 10px;
 }
+.my_bg {
+    background-image: url("img/header.jpg");
+    background-repeat: no-repeat;
+}
