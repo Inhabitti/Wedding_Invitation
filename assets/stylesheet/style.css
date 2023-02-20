@@ -1,21 +1,26 @@
 .section1 {
 	background-image:url('img/header.jpg');
+	margin: 50px;
 }
 
 .section2 {
 	background-color: #ffffff;
+	margin: 50px;
 }
 
 .section3 {
 	background-color: #ffffff;
+	margin: 50px;
 }
 
 .section4 {
 	background-color: #ffffff;
+	margin: 50px;
 }
 
 .section5 {
 	background-color: #ffffff;
+	margin: 50px;
 }
 
 
@@ -49,6 +54,8 @@ p {
 	font-size: 25px;
 	color: #fff;
 	text-decoration: none;
+	margin:auto;
+        display:block;
 }
 
 li {
