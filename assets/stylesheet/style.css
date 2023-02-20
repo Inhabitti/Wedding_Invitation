@@ -19,9 +19,10 @@
 }
 
 section div {
-	font-family: "Open Sans";
+	font-family: "GowunDodum-Regular";
 	font-style: normal;
-	text-align: top;
+	text-align: center;
+	vertical-align : top;
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
@@ -32,7 +33,8 @@ h1 {
 	font-style: normal;
 	font-family:'GowunDodum-Regular';
 	color: #010101;
-	text-align: top;
+	text-align: center;
+	vertical-align : top;
 }
 
 p {
