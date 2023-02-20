@@ -428,3 +428,10 @@ $(document).ready(function() {
     }
   });
 });
+
+<script>
+var map = new naver.maps.Map('map', {
+    center: new naver.maps.LatLng(37.5670135, 126.9783740),
+    zoom: 10
+});
+</script>
