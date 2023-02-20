@@ -85,10 +85,6 @@ body, html {
   background-position: center; /* 배경 이미지를 섹션 가운데에 위치시킴 */
 }
 
-@font-face {
-    font-family: 'GowunDodum-Regular';
-    src: url('GowunDodum-Regular.ttf') format('truetype');
-}
 
 /* 갤러리 썸네일들 */
 .box__gallery {
