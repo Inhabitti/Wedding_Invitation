@@ -420,14 +420,16 @@ function bulletIndex() {
   bullets[index].classList.add("on");
 }
 
-$(document).ready(function() {
-  $('.open-popup-link').magnificPopup({
-    type:'image',
-    gallery: {
-      enabled: true
-    }
-  });
-});
+// 이미지 클릭 시 호출되는 함수
+function showSlider() {
+  // 슬라이더 표시 코드
+  // ...
+
+  // 스크롤 위치 이동 코드
+  const section3 = document.getElementById("section3");
+  section3.scrollIntoView();
+}
+
 
 var HOME_PATH = window.HOME_PATH || '.';
 
