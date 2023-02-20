@@ -419,3 +419,12 @@ function bulletIndex() {
   index %= bullets.length;
   bullets[index].classList.add("on");
 }
+
+$(document).ready(function() {
+  $('.open-popup-link-section3').magnificPopup({
+    type:'image',
+    gallery: {
+      enabled: true
+    }
+  });
+});
