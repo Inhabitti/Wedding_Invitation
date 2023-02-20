@@ -421,7 +421,7 @@ function bulletIndex() {
 }
 
 $(document).ready(function() {
-  $('.open-popup-link-section3').magnificPopup({
+  $('.open-popup-link').magnificPopup({
     type:'image',
     gallery: {
       enabled: true
