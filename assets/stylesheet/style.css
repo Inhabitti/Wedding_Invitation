@@ -1,5 +1,5 @@
 .section1 {
-	background-image:url('../img/main.jpg');
+	background-image:url('../../img/main.jpg');
 }
 
 .section2 {
@@ -38,7 +38,7 @@ p {
 
 @font-face {
 	font-family: 'GowunDodum-Regular';
-	src: url('../GowunDodum-Regular.ttf') format('truetype');
+	src: url('../../GowunDodum-Regular.ttf') format('truetype');
 }
 
 .button {
