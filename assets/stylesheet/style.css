@@ -27,14 +27,14 @@ section div {
 	transform: translateY(-50%);
 }
 
-span {
+h1 {
 	font-size: 4em;
 	font-style: normal;
 	font-family:'GowunDodum-Regular';
 	color: #010101;
 }
 
-li {
+p {
 	font-size: 1.5em;
 	font-style: normal;
 	font-family:'GowunDodum-Regular';
@@ -55,4 +55,8 @@ li {
 	font-size: 25px;
 	color: #fff;
 	text-decoration: none;
+}
+
+li {
+	list-style:none;
 }
