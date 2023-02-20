@@ -8,6 +8,7 @@
 
 .section3 {
 	background-color: #ffffff;
+	position: relative;
 }
 
 .section4 {
@@ -60,3 +61,6 @@ li {
 body {
 	font-family: 'GowunDodum-Regular';
 }
+
+
+	
