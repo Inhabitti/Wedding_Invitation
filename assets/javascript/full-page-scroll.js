@@ -445,11 +445,9 @@ var WeddingHall = new naver.maps.LatLng(36.3456884, 127.3545292),
 
 var contentString = [
         '<div class="iw_inner">',
-        '   <h3>서울특별시청</h3>',
-        '   <p>서울특별시 중구 태평로1가 31 | 서울특별시 중구 세종대로 110 서울특별시청<br />',
-        '       <img src="'+ HOME_PATH +'/img/example/hi-seoul.jpg" width="55" height="55" alt="서울시청" class="thumb" /><br />',
-        '       02-120 | 공공,사회기관 &gt; 특별,광역시청<br />',
-        '       <a href="http://www.seoul.go.kr" target="_blank">www.seoul.go.kr/</a>',
+        '   <h3>S가든웨딩</h3>',
+        '   <p>대전광역시 서구 월드컵대로484번안길 10<br />',
+        '       <a href="네이버 지도로 길찾기" target="_blank">nmap://route/public?dlat=36.3456884&dlng=127.3545292&dname=S%EA%B0%80%EB%93%A0%EC%9B%A8%EB%94%A9/</a>',
         '   </p>',
         '</div>'
     ].join('');
