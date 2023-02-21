@@ -433,9 +433,9 @@ function showSlider() {
 
 var HOME_PATH = window.HOME_PATH || '.';
 
-var cityhall = new naver.maps.LatLng(37.5666805, 126.9784147),
+var WeddingHall = new naver.maps.LatLng(36.3456884, 127.3545292),
     map = new naver.maps.Map('map', {
-        center: cityhall.destinationPoint(0, 500),
+        center: WeddingHall.destinationPoint(0, 500),
         zoom: 15
     }),
     marker = new naver.maps.Marker({
