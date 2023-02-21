@@ -2,6 +2,7 @@
 	background-image:url('../../img/main.jpg');
 	background-size: contain;
 	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .section2 {
