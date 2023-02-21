@@ -73,4 +73,6 @@ li {
 	list-style:none;
 }
 
-
+#visual {
+  margin: 0;
+}
