@@ -1,5 +1,7 @@
 .section1 {
 	background-image:url('../../img/main.jpg');
+	background-size: contain;
+	background-position: center;
 }
 
 .section2 {
