@@ -1,3 +1,15 @@
+#header {
+  margin: 0;
+}	
+
+body {
+	font-family: 'GowunDodum-Regular';
+	margin: 0;
+	padding: 0;
+}
+
+
+
 .section1 {
 	background-image:url('../../img/main.jpg');
 	background-size: contain;
@@ -61,13 +73,4 @@ li {
 	list-style:none;
 }
 
-body {
-	font-family: 'GowunDodum-Regular';
-	margin: 0;
-	padding: 0;
-}
 
-
-#header {
-  margin: 0;
-}	
