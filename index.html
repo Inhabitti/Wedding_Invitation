@@ -142,8 +142,19 @@
     </script>
     <script>
 	    var mapOptions = {
+		    mapTypeControl: true,
+		    	mapTypeControlOptions: {
+				style: naver.maps.MapTypeControlStyle.BUTTON,
+				position: naver.maps.Position.TOP_RIGHT
+			},
+		    	zoomControl: true,
+		    	zoomControlOptions: {
+				style: naver.maps.ZoomControlStyle.SMALL,
+				position: naver.maps.Position.TOP_RIGHT
+			},
 		    center: new naver.maps.LatLng(37.3595704, 127.105399),
 		    zoom: 10
+		   
 	    };
 	    var map = new naver.maps.Map('map', mapOptions);
     </script>
