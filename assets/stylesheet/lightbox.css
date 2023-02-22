@@ -202,3 +202,8 @@ body.lb-disable-scrolling {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
+
+.thumbnail {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
