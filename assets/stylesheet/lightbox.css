@@ -204,6 +204,6 @@ body.lb-disable-scrolling {
 }
 
 .thumbnail {
-  overflow-clip-margin: content-box;
-  overflow: clip;
+  width: 50%;
+  height: 50%;
 }
