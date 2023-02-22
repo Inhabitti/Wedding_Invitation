@@ -206,4 +206,6 @@ body.lb-disable-scrolling {
 .thumbnail {
   width: 15%;
   height: 15%;
+  margin: auto;
+  display: block;
 }
