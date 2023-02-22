@@ -206,7 +206,11 @@ body.lb-disable-scrolling {
 .thumbnail {
   width: 15%;
   height: 15%;
+}
+
+.image-list {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  list-style: none;
+  padding: 0;
 }
