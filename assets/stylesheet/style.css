@@ -90,9 +90,9 @@ li {
 
 /* 네이버 지도 바로가기 */
 .mapbutton {
-	background - color: #0b9df0;
+	background-color: #0b9df0;
 	border-bottom: 5px solid #0a7cd0;
-	text-shadow: 0px - 2px #0a7cd0;
+	text-shadow: 0px-2px #0a7cd0;
 	padding: 10px 40px;
 	border-radius: 10px;
 	font-size: 25px;
@@ -106,7 +106,7 @@ li {
 
 /* 축의금 버튼 스타일 */
 .button {
-	background - color: #ffffff;
+	background-color: #ffffff;
 	border: none;
 	border-radius: 20px;
 	color: #2e2e2e;
