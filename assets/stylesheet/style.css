@@ -49,6 +49,7 @@ n {
 	color : #010101;
 	text-align: center;
 	vertical-align: bottom;
+	padding: 500px 0 0 500px;
 }
 
 p {
@@ -56,7 +57,7 @@ p {
 	font-style: normal;
 	color: #010101;
 	text-align: left;
-	margin-left: 50px;
+	padding: 150px 0 0 150px;
 }    
 
 @font-face {
