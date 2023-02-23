@@ -208,7 +208,7 @@ body.lb-disable-scrolling {
 }
 
 .thumbnail {
-  display: inline-block;
+  display: block;
   margin: 10px;
   boarder: none;
   max-width: 25%;
