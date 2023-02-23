@@ -267,7 +267,7 @@ var contentString = [
         '<div class="iw_inner">',
         '   <h3>S가든웨딩</h3>',
         '   <p>대전광역시 서구 월드컵대로484번안길 10<br />',
-        '       <a href="네이버 지도로 길찾기" target="_blank">nmap://route/public?dlat=36.3456884&dlng=127.3545292&dname=S%EA%B0%80%EB%93%A0%EC%9B%A8%EB%94%A9/</a>',
+        '       <a href="nmap://route/public?dlat=36.3456884&dlng=127.3545292&dname=S%EA%B0%80%EB%93%A0%EC%9B%A8%EB%94%A9/" target="_blank">길찾기</a>',
         '   </p>',
         '</div>'
     ].join('');
