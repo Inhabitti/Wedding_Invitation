@@ -83,6 +83,7 @@ p {
 	color: #fff;
 	text-decoration: none;
 	text-align: center;
+	position: inline-block;
 }
 
 li {
@@ -91,4 +92,18 @@ li {
 
 #visual {
   margin: 0;
+}
+
+
+.mapbutton {
+	background-color: #000000;
+	border-bottom: 5px solid #d1b358;
+	text-shadow: 0px -2px #d1b358;
+	padding: 10px 40px;
+	border-radius: 10px;
+	font-size: 25px;
+	color: #010101;
+	text-decoration: none;
+	text-align: center;
+	position: inline-block;
 }
