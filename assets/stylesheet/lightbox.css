@@ -205,13 +205,15 @@ body.lb-disable-scrolling {
 
 .gallery {
   text-align: center;
-  overflow: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  grid-gap: 20px;
 }
 
 .thumbnail {
   margin: 10px;
-  boarder: none;
-  max-width: 25%;
+  max-width: 100%;
   height: auto;
-  object-fit: contain;
+  grid-column: span 1;
+  grid-row: span 1;
 }
