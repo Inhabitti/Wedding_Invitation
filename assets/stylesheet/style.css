@@ -6,12 +6,12 @@ body {
 	font-family: 'GowunDodum-Regular';
 	margin: 0 auto;
 	padding: 0;
-	max - width: 1200 px;
+	max-width: 1200px;
 }
 
-@media screen and(min - width: 1200 px) {
+@media screen and(min-width: 1200px) {
 	body {
-		height: calc(100 vw * 3 / 4);
+		height: calc(100vw*3/4);
 		font-size: 80%;
 	}
 }
