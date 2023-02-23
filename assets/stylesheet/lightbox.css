@@ -205,12 +205,13 @@ body.lb-disable-scrolling {
 
 .gallery {
   text-align: center;
+  overflow: auto;
 }
 
 .thumbnail {
-  display: block;
   margin: 10px;
   boarder: none;
   max-width: 25%;
   height: auto;
+  object-fit: contain;
 }
