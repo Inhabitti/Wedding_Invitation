@@ -102,8 +102,8 @@ li {
 	padding: 10px 40px;
 	border-radius: 10px;
 	font-size: 25px;
-	color: #010101;
+	color: #00000;
 	text-decoration: none;
 	text-align: center;
-	position: inline-block;
+	padding: auto;
 }
