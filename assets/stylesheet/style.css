@@ -153,4 +153,5 @@ li {
         justify - content: center;
         align - items: center;
         flex - wrap: wrap;
+	height: 100%;
     }
