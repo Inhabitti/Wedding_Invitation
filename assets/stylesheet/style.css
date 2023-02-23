@@ -40,15 +40,23 @@ h1 {
 	font-style: normal;
 	color: #010101;
 	text-align: center;
-	vertical-align : top;
+	vertical-align: top;
+}
+
+n {
+	font-size: 3em;
+	font-style: normal;
+	color : #010101;
+	text-align: center;
+	vertical-align: bottom;
 }
 
 p {
 	font-size: 1.5em;
 	font-style: normal;
 	color: #010101;
-	margin-top: 50px;
-	margin-right: 50px;
+	text-align: left;
+	margin-left: 50px;
 }    
 
 @font-face {
