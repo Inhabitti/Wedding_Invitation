@@ -96,14 +96,15 @@ li {
 
 
 .mapbutton {
-	background-color: #000000;
-	border-bottom: 5px solid #d1b358;
-	text-shadow: 0px -2px #d1b358;
+	background-color: #0b9df0;
+	border-bottom: 5px solid #0a7cd0;
+	text-shadow: 0px -2px #0a7cd0;
 	padding: 10px 40px;
 	border-radius: 10px;
 	font-size: 25px;
-	color: #00000;
+	color: #ffffff;
 	text-decoration: none;
 	text-align: center;
-	padding: auto;
+	margin: 0 auto;
+	display: block;
 }
