@@ -1,49 +1,49 @@
 head {
-  margin: 0;
-}	
+    margin: 0;
+}
 
 body {
-	font-family: 'GowunDodum-Regular';
-	margin: 0 auto;
-	padding: 0;
-	max-width: 1200px;
+    font - family: 'GowunDodum-Regular';
+    margin: 0 auto;
+    padding: 0;
+    max - width: 1200 px;
 }
 
-@media screen and (min-width: 1200px) {
-  body {
-    height: calc(100vw * 3 / 4); /* 너비의 3/4만큼 높이를 지정합니다. */
-  }
-}
+@media screen and(min - width: 1200 px) {
+        body {
+            height: calc(100 vw * 3 / 4); /* 너비의 3/4만큼 높이를 지정합니다. */
+        }
+    }
 
-.section1 {
-	background-image:url('../../img/main.jpg');
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-}
+    .section1 {
+        background - image: url('../../img/main.jpg');
+        background - size: contain;
+        background - position: center;
+        background - repeat: no - repeat;
+    }
 
-.section2 {
-	background-color: #ffffff;
-}
+    .section2 {
+        background - color: #ffffff;
+    }
 
-.section3 {
-	background-color: #ffffff;
-	position: relative;
-}
+    .section3 {
+        background - color: #ffffff;
+        position: relative;
+    }
 
-.section4 {
-	background-color: #ffffff;
-}
+    .section4 {
+        background - color: #ffffff;
+    }
 
-.section5 {
-	background-color: #ffffff;
-}
+    .section5 {
+        background - color: #ffffff;
+    }
 
 
 h1 {
-	font-size: 4em;
-	font-style: normal;
-	color: #010101;
+    font - size: 4 em;
+    font - style: normal;
+    color: #010101;
 	text-align: center;
 	vertical-align: top;
 }
@@ -51,15 +51,15 @@ h1 {
 n {
 	font-size: 3em;
 	font-style: normal;
-	color : #010101;
-	text-align: center;
-	vertical-align: bottom;
-	padding: 0 0 0 500px;
+	color : # 010101;
+    text - align: center;
+    vertical - align: bottom;
+    padding: 0 0 0 500 px;
 }
 m {
-	font-size: 3em;
-	font-style: normal;
-	color : #010101;
+    font - size: 3 em;
+    font - style: normal;
+    color: #010101;
 	text-align: center;
 	vertical-align: bottom;
 	padding: 0 0 0 500px;
@@ -68,46 +68,46 @@ m {
 p {
 	font-size: 1.5em;
 	font-style: normal;
-	color: #010101;
-	text-align: left;
-	padding: 150px 0 0 150px;
-}    
+	color: # 010101;
+    text - align: left;
+    padding: 150 px 0 0 150 px;
+}
 
-@font-face {
-	font-family: 'GowunDodum-Regular';
-	src: url('../../GowunDodum-Regular.ttf') format('truetype');
+@font - face {
+    font - family: 'GowunDodum-Regular';
+    src: url('../../GowunDodum-Regular.ttf') format('truetype');
 }
 
 li {
-	list-style:none;
+    list - style: none;
 }
 
 #visual {
-  margin: 0;
+    margin: 0;
 }
 
 /* 네이버 지도 바로가기 */
 .mapbutton {
-	background-color: #0b9df0;
-	border-bottom: 5px solid #0a7cd0;
-	text-shadow: 0px -2px #0a7cd0;
+    background - color: #0b9df0;
+	border-bottom: 5px solid # 0 a7cd0;
+    text - shadow: 0 px - 2 px #0a7cd0;
 	padding: 10px 40px;
 	border-radius: 10px;
 	font-size: 25px;
-	color: #ffffff;
-	text-decoration: none;
-	text-align: center;
-	margin: 0 auto;
-	display: block;
+	color: # ffffff;
+    text - decoration: none;
+    text - align: center;
+    margin: 0 auto;
+    display: block;
 }
 
 
 /* 축의금 버튼 스타일 */
 .button {
-  background-color: #ffffff;
-  border: none;
-  border-radius: 20px;
-  color: #2e2e2e;
+    background - color: #ffffff;
+    border: none;
+    border - radius: 20 px;
+    color: #2e2e2e;
   display: inline-block;
   font-size: 24px;
   font-weight: bold;
@@ -117,10 +117,13 @@ li {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  align-self: flex-start;
+  border: 3px solid # ccc;
+    box - shadow: 2 px 2 px 2 px rgba(0, 0, 0, 0.2);
 }
 
 .button::before {
-  background-color: #2e2e2e;
+        background - color: #2e2e2e;
   border-radius: 20px;
   bottom: -10px;
   content: "";
@@ -133,21 +136,21 @@ li {
 }
 
 .button:hover {
-  background-color: #2e2e2e;
-  color: #ffffff;
-}
+  background-color: # 2e2 e2e;
+        color: #ffffff;
+    }
 
-.button:first-of-type {
-  margin-right: 50px;
-}
+    .button: first - of -type {
+        margin - right: 50 px;
+    }
 
-.button:last-of-type {
-  margin-left: 50px;
-}
+    .button: last - of -type {
+        margin - left: 50 px;
+    }
 
-.section-buttons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
+    .section - buttons {
+        display: flex;
+        justify - content: center;
+        align - items: center;
+        flex - wrap: wrap;
+    }
