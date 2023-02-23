@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>Wedding Invitation</title>
     <meta name="viewport" content="width=1024">
-    <link rel="icon" type="image/png" sizes="16x16"  href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link href="assets/stylesheet/lightbox.css" rel="stylesheet" />
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
@@ -11,113 +12,117 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="assets/stylesheet/style.css" />
     <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=jv8u6yc0r1"></script>
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="main" class="scroll-container">
-      <section class="section1">
-        <div class="my_bg">
-		<p>풀꽃향기 그윽한 봄 햇살 아래에서<br>소중한 인연을 맺고자 합니다.<br>새인생을 출발하는 두사람을 가까이에서<br>축복해 주시면 더없는 기쁨이 되겠습니다.</p>
-	      </div>
-	<div>
-		<n>이유환<br>이보인</n>
-	      </div>
-      </section>
-      <section class="section2">
-        <div>
-          <h1>오시는 길</h1>
-        </div>
-	<div id="map" style="width:800px;height:600px;margin:auto;text-align:center;"></div>
-	<div>
-		<a href="nmap://route/public?dlat=36.3456884&dlng=127.3545292&dname=S%EA%B0%80%EB%93%A0%EC%9B%A8%EB%94%A9" class="mapbutton">네이버 지도로 길찾기</a>
-		<p>자차로 오시는 경우<br>대중교통으로 오시는 경우</p>
-	      </div>
-      </section>
-      <section class="section3">
-        <div class="gallery">
-          <h1>GALLERY</h1>
-	  <a href="img/1.jpg" data-lightbox="roadtrip">
-		  <img src="img/1.jpg" alt="" class="thumbnail">
-		</a>
-	  <a href="img/2.jpg" data-lightbox="roadtrip">
-		  <img src="img/2.jpg" alt="" class="thumbnail">
-		</a>
-	  <a href="img/3.jpg" data-lightbox="roadtrip">
-		  <img src="img/3.jpg" alt="" class="thumbnail">
-		</a>
-	  <a href="img/4.jpg" data-lightbox="roadtrip">
-		  <img src="img/4.jpg" alt="" class="thumbnail">
-		</a>
-	  <a href="img/5.jpg" data-lightbox="roadtrip">
-		  <img src="img/5.jpg" alt="" class="thumbnail">
-		</a>
-	  <a href="img/6.jpg" data-lightbox="roadtrip">
-		  <img src="img/6.jpg" alt="" class="thumbnail">
-		</a>
-	  <a href="img/7.jpg" data-lightbox="roadtrip">
-		  <img src="img/7.jpg" alt="" class="thumbnail">
-		</a>
-	  <a href="img/8.jpg" data-lightbox="roadtrip">
-		  <img src="img/8.jpg" alt="" class="thumbnail">
-		</a>
-	  <a href="img/9.jpg" data-lightbox="roadtrip">
-		  <img src="img/9.jpg" alt="" class="thumbnail">
-		</a>
-	  <a href="img/10.jpg" data-lightbox="roadtrip">
-		  <img src="img/10.jpg" alt="" class="thumbnail">
-		</a>
-	</div>
-      </section>
-      <section class="section4">
-        <div>
-          <h1>축의금 보내는 곳</h1>
-        </div>
-        <div class="button-container">
-          <a href="#" class="button">신랑측</a>
-          <a href="#" class="button">신부측</a>
-        </div>
-      </section>
-      <section class="section5">
-        <div>
-          <h1>축하의 말</h1>
-	</div>
-      </section> 
-    <script src="assets/javascript/full-page-scroll.js"></script>
-    <script src="assets/javascript/lightbox-plus-jquery.js"></script>
-    <script type="text/javascript">
-      new fullScroll({
-        mainElement: "main",
-        displayDots: true,
-        dotsPosition: "left",
-        animateTime: 0.7,
-        animateFunction: "ease",
-      });
-    </script>
-    <script>
-	    var mapOptions = {
-		    mapTypeControl: true,
-		    	mapTypeControlOptions: {
-				style: naver.maps.MapTypeControlStyle.BUTTON,
-				position: naver.maps.Position.TOP_RIGHT
-			},
-		    	zoomControl: true,
-		    	zoomControlOptions: {
-				style: naver.maps.ZoomControlStyle.SMALL,
-				position: naver.maps.Position.TOP_RIGHT
-			},
-		    center: new naver.maps.LatLng(36.3456884, 127.3545292),
-		    zoom: 12
-		   
-	    };
-	    var map = new naver.maps.Map('map', mapOptions);
-	    infowindow.open(map, marker);
-    </script>
-    <script>
-	    lightbox.option({
-		    'alwaysShowNavOnTouchDevices' : true,
-		    'disableScrolling' : true,
-		    'fitImagesInViewport' : true,
-		    'wrapAround' : true
-	    })
-    </script>
-  </body>
+        <section class="section1">
+            <div class="my_bg">
+                <p>풀꽃향기 그윽한 봄 햇살 아래에서<br>소중한 인연을 맺고자 합니다.<br>새인생을 출발하는 두사람을 가까이에서<br>축복해 주시면 더없는 기쁨이 되겠습니다.</p>
+            </div>
+            <div>
+                <n>이유환<br>이보인</n>
+            </div>
+        </section>
+        <section class="section2">
+            <div>
+                <h1>오시는 길</h1>
+            </div>
+            <div id="map" style="width:800px;height:600px;margin:auto;text-align:center;"></div>
+            <div>
+                <a href="nmap://route/public?dlat=36.3456884&dlng=127.3545292&dname=S%EA%B0%80%EB%93%A0%EC%9B%A8%EB%94%A9" class="mapbutton">네이버 지도로 길찾기</a>
+                <p>자차로 오시는 경우<br>대중교통으로 오시는 경우</p>
+            </div>
+        </section>
+        <section class="section3">
+            <div>
+                <h1>GALLERY</h1>
+            </div>
+            <div class="gallery">
+                <a href="img/1.jpg" data-lightbox="roadtrip">
+                    <img src="img/1.jpg" alt="" class="thumbnail">
+                </a>
+                <a href="img/2.jpg" data-lightbox="roadtrip">
+                    <img src="img/2.jpg" alt="" class="thumbnail">
+                </a>
+                <a href="img/3.jpg" data-lightbox="roadtrip">
+                    <img src="img/3.jpg" alt="" class="thumbnail">
+                </a>
+                <a href="img/4.jpg" data-lightbox="roadtrip">
+                    <img src="img/4.jpg" alt="" class="thumbnail">
+                </a>
+                <a href="img/5.jpg" data-lightbox="roadtrip">
+                    <img src="img/5.jpg" alt="" class="thumbnail">
+                </a>
+                <a href="img/6.jpg" data-lightbox="roadtrip">
+                    <img src="img/6.jpg" alt="" class="thumbnail">
+                </a>
+                <a href="img/7.jpg" data-lightbox="roadtrip">
+                    <img src="img/7.jpg" alt="" class="thumbnail">
+                </a>
+                <a href="img/8.jpg" data-lightbox="roadtrip">
+                    <img src="img/8.jpg" alt="" class="thumbnail">
+                </a>
+                <a href="img/9.jpg" data-lightbox="roadtrip">
+                    <img src="img/9.jpg" alt="" class="thumbnail">
+                </a>
+                <a href="img/10.jpg" data-lightbox="roadtrip">
+                    <img src="img/10.jpg" alt="" class="thumbnail">
+                </a>
+            </div>
+        </section>
+        <section class="section4">
+            <div>
+                <h1>축의금 보내는 곳</h1>
+            </div>
+            <div class="button-container">
+                <a href="#" class="button">신랑측</a>
+                <a href="#" class="button">신부측</a>
+            </div>
+        </section>
+        <section class="section5">
+            <div>
+                <h1>축하의 말</h1>
+            </div>
+        </section>
+        <script src="assets/javascript/full-page-scroll.js"></script>
+        <script src="assets/javascript/lightbox-plus-jquery.js"></script>
+        <script type="text/javascript">
+            new fullScroll({
+                mainElement: "main",
+                displayDots: true,
+                dotsPosition: "left",
+                animateTime: 0.7,
+                animateFunction: "ease",
+            });
+        </script>
+        <script>
+            var mapOptions = {
+                mapTypeControl: true,
+                mapTypeControlOptions: {
+                    style: naver.maps.MapTypeControlStyle.BUTTON,
+                    position: naver.maps.Position.TOP_RIGHT
+                },
+                zoomControl: true,
+                zoomControlOptions: {
+                    style: naver.maps.ZoomControlStyle.SMALL,
+                    position: naver.maps.Position.TOP_RIGHT
+                },
+                center: new naver.maps.LatLng(36.3456884, 127.3545292),
+                zoom: 12
+
+            };
+            var map = new naver.maps.Map('map', mapOptions);
+            infowindow.open(map, marker);
+        </script>
+        <script>
+            lightbox.option({
+                'alwaysShowNavOnTouchDevices': true,
+                'disableScrolling': true,
+                'fitImagesInViewport': true,
+                'wrapAround': true
+            })
+        </script>
+</body>
+
 </html>
