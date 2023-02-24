@@ -274,6 +274,14 @@ var contentString = [
 
 var infowindow = new naver.maps.InfoWindow({
     content: contentString,
+    maxWidth: 140,
+    backgroundColor: "#eee",
+    borderColor: "#010101",
+    borderWidth: 1,
+    anchorSize: new naver.maps.Size(30, 30),
+    anchorSkew: true,
+    anchorColor: "#eee",
+    pixelOffset: new naver.maps.Point(20, -20)
 });
 
 naver.maps.Event.addListener(marker, "click", function(e) {
