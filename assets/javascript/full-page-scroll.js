@@ -249,27 +249,27 @@
 	window.fullScroll = fullScroll;
 })();
 
-
-
+/*네이버 지도*/
 var HOME_PATH = window.HOME_PATH || '.';
 
 var WeddingHall = new naver.maps.LatLng(36.3456884, 127.3545292),
     map = new naver.maps.Map('map', {
         center: WeddingHall.destinationPoint(0, 500),
         zoom: 15
-}),
-var marker = new naver.maps.Marker({
+    }),
+    marker = new naver.maps.Marker({
         map: map,
         position: WeddingHall
+    });
 
 var contentString = [
-        '<div class="iw_inner">',
-        '   <h3>S가든웨딩</h3>',
-        '   <p>대전광역시 서구 월드컵대로484번안길 10<br />',
-        '       <a href="nmap://route/public?dlat=36.3456884&dlng=127.3545292&dname=S%EA%B0%80%EB%93%A0%EC%9B%A8%EB%94%A9/" target="_blank">길찾기</a>',
-        '   </p>',
-        '</div>'
-    ].join('');
+    '<div class="iw_inner">',
+    '   <h3>S가든웨딩</h3>',
+    '   <p>대전광역시 서구 월드컵대로484번안길 10<br />',
+    '       <a href="nmap://route/public?dlat=36.3456884&dlng=127.3545292&dname=S%EA%B0%80%EB%93%A0%EC%9B%A8%EB%94%A9/" target="_blank">길찾기</a>',
+    '   </p>',
+    '</div>'
+].join('');
 
 var infowindow = new naver.maps.InfoWindow({
     content: contentString,
@@ -292,5 +292,3 @@ naver.maps.Event.addListener(marker, "click", function(e) {
 });
 
 
-// 네이버 지도 설정
-infowindow.open(map, marker);
