@@ -257,11 +257,11 @@ var WeddingHall = new naver.maps.LatLng(36.3456884, 127.3545292),
     map = new naver.maps.Map('map', {
         center: WeddingHall.destinationPoint(0, 500),
         zoom: 15
-    }),
-    marker = new naver.maps.Marker({
+}),
+var marker = new naver.maps.Marker({
         map: map,
         position: WeddingHall
-    });
+});
 
 var contentString = [
         '<div class="iw_inner">',
