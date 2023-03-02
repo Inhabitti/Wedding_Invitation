@@ -10,6 +10,7 @@ body {
   padding: 0;
   height: calc(100vw*16/9); /* 9:16 비율 */
   max-width: 640px; /* 예시로 640px를 설정했습니다. */
+  background-color: #FDF2F4;
 }
 
 @media screen and (min-width: 640px) {
