@@ -3,6 +3,8 @@ head {
 }
 
 body {
+  display: flex;
+  justify-content: center;
   font-family: 'GowunDodum-Regular';
   margin: 0;
   padding: 0;
