@@ -206,15 +206,21 @@ body.lb-disable-scrolling {
   opacity: 1;
 }
 
+section#2 {
+  background-color: #f2f2f2;
+  height: 800px; /* 섹션 높이 지정 */
+}
+
 .gallery {
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
-  grid-gap: 1px;
-  height: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  grid-auto-rows: minmax(100px, auto);
 }
+
 .gallery img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* 아이템 비율 조정 */
+  object-fit: cover;
 }
