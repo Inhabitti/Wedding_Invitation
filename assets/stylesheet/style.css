@@ -6,10 +6,10 @@ body {
   display: flex;
   justify-content: center;
   font-family: 'GowunDodum-Regular';
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   height: calc(100vw*16/9); /* 9:16 비율 */
-  max-width: 640px; /* 예시로 640px를 설정했습니다. */
+  max-width: 900px; 
   background-color: #FDF2F4;
 }
 
