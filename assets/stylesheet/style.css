@@ -3,18 +3,20 @@ head {
 }
 
 body {
-	font-family: 'GowunDodum-Regular';
-	margin: 0 auto;
-	padding: 0;
-	max-width: 1200px;
+  font-family: 'GowunDodum-Regular';
+  margin: 0;
+  padding: 0;
+  height: calc(100vw*16/9); /* 9:16 비율 */
+  max-width: 640px; /* 예시로 640px를 설정했습니다. */
 }
 
-@media screen and(min-width: 1200px) {
-	body {
-		height: calc(100vw*3/4);
-		font-size: 80%;
-	}
+@media screen and (min-width: 640px) {
+  body {
+    height: 100vh;
+    font-size: 80%;
+  }
 }
+
 
 .section1 {
 	background-image: url('../../img/main.jpg');
