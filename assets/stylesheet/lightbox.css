@@ -210,19 +210,11 @@ body.lb-disable-scrolling {
   text-align: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
-  grid-gap: 5px;
+  grid-gap: 1px;
   height: 100%;
 }
 .gallery img {
   width: 100%;
   height: 100%;
   object-fit: cover; /* 아이템 비율 조정 */
-}
-
-.thumbnail {
-  margin: 1px;
-  max-width: 100%;
-  height: auto;
-  grid-column: span 1;
-  grid-row: span 1;
 }
