@@ -11626,5 +11626,4 @@ function resetTyping() {
   setTimeout(typing, 0); // 딜레이 없이 바로 타이핑 시작
 }
 
-typing(); // 타이핑 시작
-
+setTimeout(typing, 0); // 최초 딜레이 없이 타이핑 시작
