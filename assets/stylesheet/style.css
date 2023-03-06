@@ -145,3 +145,11 @@ li {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.text-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	font-size: 2rem;
+}
