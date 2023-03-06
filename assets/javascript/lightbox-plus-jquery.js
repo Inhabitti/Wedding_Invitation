@@ -11625,7 +11625,8 @@ function typing(){
 function resetTyping() {
     text.textContent = "";
     i = 0;
-    setTimeout(typing, 200);
+    setTimeout(typing, 5000);
 }
 
-setTimeout(typing, 5000);
+setTimeout(typing, 5000); // 처음 호출 시 5초 후에 호출
+
