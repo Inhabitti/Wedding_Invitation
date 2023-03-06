@@ -23,31 +23,23 @@ body {
 section {
   max-width: 1024px;
   margin: auto;
+  background-color: #FDF2F4;
 }
 
 .section1 {
-	background-color: #FDF2F4;
 	margin-top: 150px;
 	margin-bottom: 150px;
 }
 
-.section2 {
-        background-color: #FDF2F4;
-}
-
 .section3 {
-        background-color: #FDF2F4;
         height: 800px;
 }
 
-.section4 {
-        background-color: #FDF2F4;
+img {
+	display: block;
+	width: 100%;
+	height: auto;
 }
-
-.section5 {
-        background-color: #FDF2F4;
-}
-
 
 h1 {
 	font-size: 4em;
@@ -55,24 +47,6 @@ h1 {
 	color: #010101;
 	text-align: center;
 	vertical-align: top;
-}
-
-n {
-	font-size: 3em;
-	font-style: normal;
-	color: # 010101;
-	text-align: center;
-	vertical-align: bottom;
-	padding: 0 0 0 500px;
-}
-
-m {
-	font-size: 3em;
-	font-style: normal;
-	color: #010101;
-	text-align: center;
-	vertical-align: bottom;
-	padding: 0 0 0 500px;
 }
 
 p {
