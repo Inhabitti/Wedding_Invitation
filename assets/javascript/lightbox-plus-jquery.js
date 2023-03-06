@@ -11615,9 +11615,17 @@ let i = 0;
 function typing(){
     let txt = content[i++];
     text.innerHTML += txt;
-    if (i > content.length) {
-        text.textContent = "";
-        i = 0;
+    if (i < content.length) {
+        setTimeout(typing, 200);
+    } else {
+        setTimeout(resetTyping, 5000);
     }
 }
-setInterval(typing, 5000)
+
+function resetTyping() {
+    text.textContent = "";
+    i = 0;
+    setTimeout(typing, 200);
+}
+
+setTimeout(typing, 5000);
