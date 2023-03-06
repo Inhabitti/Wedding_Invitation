@@ -11612,21 +11612,19 @@ const content = "INVITATION";
 const text = document.querySelector(".text");
 let i = 0;
 
-function typing(){
-    let txt = content[i++];
-    text.innerHTML += txt;
-    if (i < content.length) {
-        setTimeout(typing, 200);
-    } else {
-        setTimeout(resetTyping, 5000);
-    }
+function typing() {
+  let txt = content[i++];
+  text.innerHTML += txt;
+  if (i === content.length) {
+    setTimeout(resetTyping, 5000); // 타이핑 종료 후 5초 딜레이 후에 초기화
+  }
 }
 
 function resetTyping() {
-    text.textContent = "";
-    i = 0;
-    setTimeout(typing, 5000);
+  text.textContent = "";
+  i = 0;
+  setTimeout(typing, 0); // 딜레이 없이 바로 타이핑 시작
 }
 
-setTimeout(typing, 5000); // 처음 호출 시 5초 후에 호출
+typing(); // 타이핑 시작
 
