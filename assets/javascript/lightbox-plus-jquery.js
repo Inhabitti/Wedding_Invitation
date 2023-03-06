@@ -11617,13 +11617,15 @@ function typing() {
   text.innerHTML += txt;
   if (i === content.length) {
     setTimeout(resetTyping, 5000); // 타이핑 종료 후 5초 딜레이 후에 초기화
+  } else {
+    setTimeout(typing, 200); // 타이핑 중 200ms 딜레이
   }
 }
 
 function resetTyping() {
   text.textContent = "";
   i = 0;
-  setTimeout(typing, 0); // 딜레이 없이 바로 타이핑 시작
+  setTimeout(typing, 5000); // 초기화 후 5초 딜레이 후에 타이핑 시작
 }
 
 setTimeout(typing, 0); // 최초 딜레이 없이 타이핑 시작
