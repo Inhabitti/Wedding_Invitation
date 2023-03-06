@@ -20,11 +20,15 @@ body {
   }
 }
 
+section {
+  max-width: 1024px;
+  margin: auto;
+}
 
 .section1 {
 	background-color: #FDF2F4;
-	margin-top: 300px;
-	margin-bottom: 300px;
+	margin-top: 150px;
+	margin-bottom: 150px;
 }
 
 .section2 {
