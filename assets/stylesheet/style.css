@@ -74,6 +74,7 @@ li {
   display: flex;
   justify-content: center; /* 버튼을 수평 중앙 정렬 */
   margin: 20px; /* 가시성을 위해 간격 추가 */
+  align-items: center; /* 버튼을 수직 가운데 정렬 */
 }
 
 /* 네이버 지도 바로가기 */
