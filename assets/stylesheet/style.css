@@ -5,7 +5,7 @@ head {
 body {
   display: flex;
   justify-content: center;
-  font-family: 'GowunDodum-Regular';
+  font-family: 'GowunDodum-Regular', 'Tangerine-Bold';
   margin: 0 auto;
   padding: 0;
   height: calc(100vw*16/9); /* 9:16 비율 */
