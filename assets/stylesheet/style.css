@@ -198,7 +198,8 @@ li {
 
 #guestbook-submit {
   margin-top: 10px;
-  display: inline-block; /* 버튼을 인라인 블록으로 변경 */
+  display: inline-block;
+  vertical-align: top;
 }
 
 #guestbook-messages {
