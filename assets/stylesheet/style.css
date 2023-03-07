@@ -22,12 +22,12 @@ body {
 section {
   max-width: 1024px;
   margin: auto;
-  background-color: #FDF2F4;
+  background-color: #FDF8EB;
 }
 
 .section1 {
-	margin-top: 150px;
-	margin-bottom: 150px;
+	padding-top: 150px;
+	padding-bottom: 150px;
 }
 
 .section3 {
@@ -67,7 +67,7 @@ h1 {
 
 
 p {
-  font-size: 2em;
+  font-size: 4em;
   font-style: normal;
   color: #010101;
   text-align: center;
