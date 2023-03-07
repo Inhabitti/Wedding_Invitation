@@ -27,7 +27,7 @@
                 <img src="img/main.jpg" alt="">
             </div>
             <div>
-                <h1>오시는 길</h1>
+                <h1>Location</h1>
             </div>
             <div id="map" style="width:800px;height:600px;margin:auto;text-align:center;"></div>
             <div class="button-container">
@@ -40,7 +40,7 @@
         </section>
         <section class="section4">
             <div>
-                <h1>축하 메세지 전하기</h1>
+                <h1>Contact Details</h1>
             </div>
             <div class="button-container">
                 <a href="#" class="button">신랑측</a>
@@ -49,7 +49,7 @@
         </section>
         <section class="section3">
             <div>
-                <h1>GALLERY</h1>
+                <h1>Gallery</h1>
             </div>
             <div class="gallery">
                 <a href="img/1.jpg" data-lightbox="roadtrip">
@@ -86,8 +86,15 @@
         </section>
         <section class="section5">
             <div>
-                <h1>축하 메세지 남기기</h1>
+                <h1>Guestbook</h1>
             </div>
+            <!-- 메시지를 입력할 input과 전송 버튼을 감싸는 form 태그 -->
+            <form id="guestbook-form">
+                <input type="text" placeholder="메시지를 입력하세요" id="guestbook-input">
+                <button type="submit" id="guestbook-submit">전송</button>
+            </form>
+            <!-- 메시지가 표시될 영역 -->
+            <ul id="guestbook-messages"></ul>
         </section>
         <script src="assets/javascript/lightbox-plus-jquery.js"></script>
         <script>
