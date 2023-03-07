@@ -58,7 +58,7 @@ h1 {
   align-items: center;
 }
 
-span {
+.main-name {
   font-size: 7em;
   font-style: normal;
   color: #010101;
