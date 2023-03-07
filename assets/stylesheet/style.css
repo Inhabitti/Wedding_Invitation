@@ -70,37 +70,27 @@ li {
 	margin: 0;
 }
 
-/* 네이버 지도 바로가기 */
-.mapbutton {
-	background-color: #0b9df0;
-	border-bottom: 5px solid #0a7cd0;
-	text-shadow: 0px-2px #0a7cd0;
-	padding: 10px 20px;
-	width: 200px;
-	height: 50px;
-	border-radius: 10px;
-	font-size: 25px;
-	color: #ffffff;
-	text-decoration: none;
-	text-align: center;
-	margin: 0 auto;
-	display: block;
+.button-container {
+  display: flex;
+  justify-content: center; /* 버튼을 수평 중앙 정렬 */
+  margin: 20px; /* 가시성을 위해 간격 추가 */
 }
 
-.newbutton {
-	background-color: #0b9df0;
-	border-bottom: 5px solid #0a7cd0;
-	text-shadow: 0px-2px #0a7cd0;
-	padding: 10px 20px;
-	width: 200px;
-	height: 50px;
-	border-radius: 10px;
-	font-size: 25px;
-	color: #ffffff;
-	text-decoration: none;
-	text-align: center;
-	margin: 0 auto;
-	display: block;
+/* 네이버 지도 바로가기 */
+.mapbutton, .newbutton {
+  background-color: #0b9df0;
+  border-bottom: 5px solid #0a7cd0;
+  text-shadow: 0px-2px #0a7cd0;
+  padding: 10px 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 25px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  margin: 0 10px; /* 각 버튼 사이의 간격 */
+  display: block;
 }
 
 .newbutton img {
