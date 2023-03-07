@@ -5,7 +5,7 @@ head {
 body {
   display: flex;
   justify-content: center;
-  font-family: 'GowunDodum-Regular', 'Tangerine-Bold';
+  font-family: 'Garam', 'Tangerine-Bold';
   margin: 0 auto;
   padding: 0;
   height: calc(100vw*16/9); /* 9:16 비율 */
@@ -76,8 +76,8 @@ p {
 }
 
 @font-face {
-	font-family: 'GowunDodum-Regular';
-	src: url('../../GowunDodum-Regular.ttf') format('truetype');
+	font-family: 'Garam';
+	src: url('../../나눔손글씨 가람연꽃.ttf') format('truetype');
 	unicode-range: U+AC00-D7A3; /* 한글 유니코드 범위 */
 }
 
