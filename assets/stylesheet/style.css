@@ -192,15 +192,31 @@ li {
   width: 70%;
   height: 100px;
   resize: vertical;
-  margin: 0 auto;
-  display: block;
+  margin-right: 10px; /* 전송 버튼과의 간격을 줌 */
+  display: inline-block; /* 입력란과 전송 버튼을 옆으로 나열 */
 }
 
 #guestbook-submit {
   margin-top: 10px;
   display: inline-block;
   vertical-align: top;
+  background-color: #f5a623;
+  color: #fff;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
 }
+
+#guestbook-submit:hover {
+  background-color: #f7b751;
+  cursor: pointer;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
 
 #guestbook-messages {
   margin-top: 20px;
@@ -212,4 +228,6 @@ li {
   margin-bottom: 5px;
   border-bottom: 1px solid #ddd;
   padding-bottom: 5px;
+  font-size: 20px;
 }
+
