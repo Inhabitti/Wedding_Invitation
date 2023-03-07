@@ -11629,3 +11629,26 @@ function resetTyping() {
 }
 
 setTimeout(typing, 0); // 최초 딜레이 없이 타이핑 시작
+
+
+/* 방명록 */
+// 이벤트 리스너를 추가하여 form 전송 시 동작하도록 함
+document.getElementById('guestbook-form').addEventListener('submit', function(event) {
+  // 기본 전송 동작을 막음
+  event.preventDefault();
+
+  // 입력된 메시지를 가져와 변수에 저장
+  var message = document.getElementById('guestbook-input').value;
+
+  // 메시지를 표시할 li 요소를 생성
+  var messageLi = document.createElement('li');
+
+  // li 요소에 메시지 내용을 추가
+  messageLi.textContent = message;
+
+  // 메시지가 표시될 영역에 li 요소를 추가
+  document.getElementById('guestbook-messages').appendChild(messageLi);
+
+  // 입력 필드를 초기화하여 새로운 메시지를 입력할 수 있도록 함
+  document.getElementById('guestbook-input').value = '';
+});
