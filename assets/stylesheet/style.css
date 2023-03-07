@@ -41,6 +41,9 @@ img {
 	height: auto;
 }
 
+
+/* 텍스트 설정 */
+
 h1 {
 	font-size: 4em;
 	font-style: normal;
@@ -55,11 +58,20 @@ h1 {
   align-items: center;
 }
 
-p {
-  font-size: 1.5em;
+span {
+  font-size: 7em;
   font-style: normal;
   color: #010101;
-  text-align: left;
+  text-align: center;
+  padding: 150px 0 0 0;
+}
+
+
+p {
+  font-size: 2em;
+  font-style: normal;
+  color: #010101;
+  text-align: center;
   padding: 150px 0 0 0;
 }
 
