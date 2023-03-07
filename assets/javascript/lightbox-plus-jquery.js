@@ -11052,7 +11052,8 @@ return jQuery;
     If the caption data is trusted, for example you are hardcoding it in, then leave this to false.
     This will free you to add html tags, such as links, in the caption.
 
-    If the caption data is user submitted or from some other untrusted source, then set this to true
+    If the caption data is user submitted or from some other un
+    trusted source, then set this to true
     to prevent xss and other injection attacks.
      */
     sanitizeTitle: false
@@ -11251,21 +11252,33 @@ return jQuery;
       }
     }
 
-    // Position Lightbox
-    var top  = $window.scrollTop() + this.options.positionFromTop;
-    var left = $window.scrollLeft();
-    this.$lightbox.css({
-      top: top + 'px',
-      left: left + 'px'
-    }).fadeIn(this.options.fadeDuration);
+   Lightbox.prototype.showImage = function (index) {
+  var self = this;
+  this.$lightbox.fadeOut(this.options.fadeDuration);
+  this.$outerContainer.removeClass('animating');
 
-    // Disable scrolling of the page while open
-    if (this.options.disableScrolling) {
-      $('body').addClass('lb-disable-scrolling');
-    }
+  // If the image is already shown, do nothing
+  if (this.$lightbox.css('display') === 'block') {
+    return;
+  }
 
-    this.changeImage(imageNumber);
-  };
+  // Position Lightbox
+  var top  = $window.scrollTop() + this.options.positionFromTop;
+  var left = $window.scrollLeft();
+  this.$lightbox.css({
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)'
+  }).fadeIn(this.options.fadeDuration);
+
+  // Disable scrolling of the page while open
+  if (this.options.disableScrolling) {
+    $('body').addClass('lb-disable-scrolling');
+  }
+
+  this.changeImage(index);
+};
+
 
   // Hide most UI elements in preparation for the animated resizing of the lightbox.
   Lightbox.prototype.changeImage = function(imageNumber) {
