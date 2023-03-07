@@ -14,7 +14,7 @@ body.lb-disable-scrolling {
 }
 
 .lightbox {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -23,13 +23,6 @@ body.lb-disable-scrolling {
   line-height: 0;
   font-weight: normal;
   outline: none;
-}
-
-.lightbox .lb-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
 
 .lightbox .lb-image {
