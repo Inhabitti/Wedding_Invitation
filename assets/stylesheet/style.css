@@ -21,8 +21,9 @@ body {
 
 section {
   max-width: 1024px;
-  margin: auto;
+  margin-bottom: 50px;
   background-color: #FDF8EB;
+  padding: 50px 0;
 }
 
 .section1 {
