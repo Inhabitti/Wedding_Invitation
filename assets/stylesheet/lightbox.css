@@ -25,6 +25,13 @@ body.lb-disable-scrolling {
   outline: none;
 }
 
+.lightbox .lb-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .lightbox .lb-image {
   display: block;
   height: auto;
