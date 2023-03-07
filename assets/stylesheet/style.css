@@ -176,3 +176,38 @@ li {
 	height: 100px;
 	font-size: 4rem;
 }
+
+/* 방명록 */
+#guestbook-container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+#guestbook-form {
+  margin-top: 30px;
+}
+
+#guestbook-input {
+  width: 90%;
+  height: 200px;
+  resize: vertical;
+  margin: 0 auto;
+  display: block;
+}
+
+#guestbook-submit {
+  margin-top: 10px;
+  display: block;
+}
+
+#guestbook-messages {
+  margin-top: 20px;
+  list-style: none;
+  padding-left: 0;
+}
+
+#guestbook-messages li {
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
