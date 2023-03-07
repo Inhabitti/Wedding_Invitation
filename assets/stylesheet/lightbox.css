@@ -220,4 +220,6 @@ body.lb-disable-scrolling {
   max-width: 90%;
   max-height: 90%;
   object-fit: cover;
+  margin: 0;
+  padding: 0;
 }
