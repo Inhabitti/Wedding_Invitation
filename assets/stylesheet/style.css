@@ -188,8 +188,8 @@ li {
 }
 
 #guestbook-input {
-  width: 90%;
-  height: 200px;
+  width: 70%;
+  height: 100px;
   resize: vertical;
   margin: 0 auto;
   display: block;
