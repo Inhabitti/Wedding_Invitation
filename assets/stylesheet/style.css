@@ -185,6 +185,7 @@ li {
 
 #guestbook-form {
   margin-top: 30px;
+  text-align: center; /* 입력 폼 내부의 요소들을 가운데 정렬 */
 }
 
 #guestbook-input {
@@ -192,14 +193,12 @@ li {
   height: 100px;
   resize: vertical;
   margin: 0 auto;
-  display: inline-block;
-  vertical-align: top;
+  display: block;
 }
 
 #guestbook-submit {
   margin-top: 10px;
-  display: inline-block;
-  vertical-align: top;
+  display: inline-block; /* 버튼을 인라인 블록으로 변경 */
 }
 
 #guestbook-messages {
