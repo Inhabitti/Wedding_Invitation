@@ -192,12 +192,14 @@ li {
   height: 100px;
   resize: vertical;
   margin: 0 auto;
-  display: block;
+  display: inline-block;
+  vertical-align: top;
 }
 
 #guestbook-submit {
   margin-top: 10px;
-  display: block;
+  display: inline-block;
+  vertical-align: top;
 }
 
 #guestbook-messages {
