@@ -78,8 +78,9 @@ p {
 @font-face {
 	font-family: 'Garam';
 	src: url('../../나눔손글씨 가람연꽃.ttf') format('truetype');
-	unicode-range: U+AC00-D7A3; /* 한글 유니코드 범위 */
+	unicode-range: U+AC00-D7A3, U+0030-0039; /* 한글과 숫자 유니코드 범위 */
 }
+
 
 @font-face {
 	font-family: 'Tangerine-Bold';
