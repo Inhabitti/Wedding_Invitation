@@ -155,6 +155,21 @@
                 document.getElementById('guestbook-input').value = '';
             });
         </script>
+        <script>
+            $(document).ready(function() {
+                $('[data-fancybox="gallery"]').fancybox({
+                    buttons: [
+                        "close",
+                        "thumbs",
+                        "prev",
+                        "next",
+                    ],
+                    touch: {
+                        vertical: false, // 수직 스와이프 사용 안 함
+                    },
+                });
+            });
+        </script>
 </body>
 
 </html>
