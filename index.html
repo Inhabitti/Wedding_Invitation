@@ -11,6 +11,7 @@
     <meta name="theme-color" content="#ffffff">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="assets/stylesheet/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=jv8u6yc0r1"></script>
 </head>
 
@@ -104,6 +105,7 @@
         </section>
         <script src="assets/javascript/lightbox-plus-jquery.js"></script>
         <script src="assets/javascript/default.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <script>
             var mapOptions = {
                 mapTypeControl: true,
@@ -151,6 +153,21 @@
                 
                 // 입력 필드를 초기화하여 새로운 메시지를 입력할 수 있도록 함
                 document.getElementById('guestbook-input').value = '';
+            });
+        </script>
+        <script>
+            var mySwiper = new Swiper('.swiper-container', {
+                direction: 'horizontal',
+                autoplay: false,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'fraction',
+                },
+                // 이전/다음 버튼 설정
+                navigation: {
+                    prevEl: '.swiper-button-prev',
+                    nextEl: '.swiper-button-next',
+                },
             });
         </script>
 </body>
