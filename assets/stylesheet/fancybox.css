@@ -317,8 +317,8 @@
 }
 
 :root {
-    --f-button-width: 40px;
-    --f-button-height: 40px;
+    --f-button-width: 100px;
+    --f-button-height: 100px;
     --f-button-border: 0;
     --f-button-border-radius: 0;
     --f-button-color: #374151;
