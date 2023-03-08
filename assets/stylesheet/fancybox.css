@@ -1216,8 +1216,8 @@ html.with-fancybox body.compensate-for-scrollbar {
     --f-button-hover-bg: rgba(70, 70, 73, 0.65);
     --f-button-active-bg: rgba(90, 90, 93, 0.65);
     --f-button-border-radius: 0;
-    --f-button-svg-width: 24px;
-    --f-button-svg-height: 24px;
+    --f-button-svg-width: 100px;
+    --f-button-svg-height: 100px;
     --f-button-svg-stroke-width: 1.5;
     --f-button-svg-filter: drop-shadow(1px 1px 1px rgba(24, 24, 27, 0.15));
     --f-button-svg-fill: none;
