@@ -317,12 +317,12 @@
 }
 
 :root {
-    --f-button-width: 100px;
-    --f-button-height: 100px;
+    --f-button-width: 200px;
+    --f-button-height: 200px;
     --f-button-border: 0;
     --f-button-border-radius: 0;
     --f-button-color: #374151;
-    --f-button-bg: #f8f8f8;
+    --f-button-bg: none;
     --f-button-hover-bg: #e0e0e0;
     --f-button-active-bg: #d0d0d0;
     --f-button-shadow: none;
