@@ -11578,3 +11578,29 @@ function disableScroll() {
 function enableScroll() {
   window.onscroll = function() {};
 }
+
+// 라이트박스 호출 버튼 클릭 시 실행되는 함수
+function openLightbox() {
+  // body 엘리먼트에 lb-disable-scrolling 클래스 추가하여 스크롤을 막음
+  document.body.classList.add('lb-disable-scrolling');
+
+  // lightboxOverlay와 lightbox 엘리먼트를 보이도록 설정
+  document.querySelector('.lightboxOverlay').style.display = 'block';
+  document.querySelector('.lightbox').style.display = 'block';
+
+  // 라이트박스 이미지를 화면 중앙에 위치하도록 설정
+  var windowHeight = window.innerHeight;
+  var imageHeight = document.querySelector('.lb-image').offsetHeight;
+  var top = Math.max((windowHeight - imageHeight) / 2, 0);
+  document.querySelector('.lightbox').style.top = top + 'px';
+}
+
+// 라이트박스 닫기 버튼 클릭 시 실행되는 함수
+function closeLightbox() {
+  // body 엘리먼트에서 lb-disable-scrolling 클래스 제거하여 스크롤을 가능하게 함
+  document.body.classList.remove('lb-disable-scrolling');
+
+  // lightboxOverlay와 lightbox 엘리먼트를 숨김
+  document.querySelector('.lightboxOverlay').style.display = 'none';
+  document.querySelector('.lightbox').style.display = 'none';
+}
