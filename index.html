@@ -11,7 +11,7 @@
     <meta name="theme-color" content="#ffffff">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="assets/stylesheet/style.css" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/stylesheet/fancybox.css" />
     <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=jv8u6yc0r1"></script>
 </head>
 
@@ -58,42 +58,37 @@
             <div>
                 <h1>Gallery</h1>
             </div>
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="img/1.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/2.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/3.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/4.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/5.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/6.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/7.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/8.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/9.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/10.jpg" alt="">
-                    </div>
-                </div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+            <div class="gallery">
+                <a href="img/1.jpg" data-fancybox="gallery">
+                    <img src="img/1.jpg" />
+                </a>
+                 <a href="img/2.jpg" data-fancybox="gallery">
+                    <img src="img/2.jpg" />
+                </a>
+                 <a href="img/3.jpg" data-fancybox="gallery">
+                    <img src="img/3.jpg" />
+                </a>
+                 <a href="img/4.jpg" data-fancybox="gallery">
+                    <img src="img/4.jpg" />
+                </a>
+                 <a href="img/5.jpg" data-fancybox="gallery">
+                    <img src="img/5.jpg" />
+                </a>
+                 <a href="img/6.jpg" data-fancybox="gallery">
+                    <img src="img/6.jpg" />
+                </a>
+                 <a href="img/7.jpg" data-fancybox="gallery">
+                    <img src="img/7.jpg" />
+                </a>
+                 <a href="img/8.jpg" data-fancybox="gallery">
+                    <img src="img/8.jpg" />
+                </a>
+                 <a href="img/9.jpg" data-fancybox="gallery">
+                    <img src="img/9.jpg" />
+                </a>
+                 <a href="img/10.jpg" data-fancybox="gallery">
+                    <img src="img/10.jpg" />
+                </a>
             </div>
         </section>
         <section class="section5">
@@ -110,7 +105,7 @@
         </section>
         <script src="assets/javascript/lightbox-plus-jquery.js"></script>
         <script src="assets/javascript/default.js"></script>
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="assets/javascript/fancybox.umd.js"></script>
         <script>
             var mapOptions = {
                 mapTypeControl: true,
@@ -158,21 +153,6 @@
                 
                 // 입력 필드를 초기화하여 새로운 메시지를 입력할 수 있도록 함
                 document.getElementById('guestbook-input').value = '';
-            });
-        </script>
-        <script>
-            var mySwiper = new Swiper('.swiper-container', {
-                direction: 'horizontal',
-                autoplay: false,
-                pagination: {
-                    el: '.swiper-pagination',
-                    type: 'fraction',
-                },
-                // 이전/다음 버튼 설정
-                navigation: {
-                    prevEl: '.swiper-button-prev',
-                    nextEl: '.swiper-button-next',
-                },
             });
         </script>
 </body>
