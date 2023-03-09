@@ -4828,9 +4828,10 @@
 
 $(document).ready(function() {
   $('[data-fancybox="gallery"]').fancybox({
-    // 추가한 부분: 배경 클릭으로 갤러리 닫히도록 설정
-    closeClickOutside: true,
-    // 아래는 기존에 있던 옵션들
+    closeClickOutside: true, // 배경 클릭으로 갤러리 닫히도록 설정
+    touch: {
+      vertical: false, // 수직 방향 스와이프 금지
+    },
     loop: true,
     thumbs: {
       autoStart: true,
