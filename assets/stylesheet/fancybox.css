@@ -1,6 +1,6 @@
 :root {
-    --f-spinner-width: 70px;
-    --f-spinner-height: 70px;
+    --f-spinner-width: 170px;
+    --f-spinner-height: 170px;
     --f-spinner-color-1: rgba(0, 0, 0, 0.1);
     --f-spinner-color-2: rgba(17, 24, 28, 0.8);
     --f-spinner-stroke: 2.75
@@ -328,8 +328,8 @@
     --f-button-shadow: none;
     --f-button-transition: all 0.15s ease;
     --f-button-transform: none;
-    --f-button-svg-width: 20px;
-    --f-button-svg-height: 20px;
+    --f-button-svg-width: 70px;
+    --f-button-svg-height: 70px;
     --f-button-svg-stroke-width: 1.5;
     --f-button-svg-fill: none;
     --f-button-svg-filter: none;
