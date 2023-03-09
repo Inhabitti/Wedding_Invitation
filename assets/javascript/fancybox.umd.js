@@ -4825,3 +4825,15 @@
         value: new Map
     }), t.Fancybox = xt
 }));
+
+$(document).ready(function() {
+  $('[data-fancybox="gallery"]').fancybox({
+    // 추가한 부분: 배경 클릭으로 갤러리 닫히도록 설정
+    closeClickOutside: true,
+    // 아래는 기존에 있던 옵션들
+    loop: true,
+    thumbs: {
+      autoStart: true,
+    },
+  });
+});
