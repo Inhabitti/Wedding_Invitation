@@ -197,9 +197,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  line-height: 2;
-  padding: 0 auto;
-  margin: 0 auto;
+  position: relative;
 }
 
 .text-box {
@@ -210,9 +208,6 @@ li {
 	right: 0;
 	margin: auto;
 	font-size: 5rem;
-	top: 50%; /* 위아래 중앙 정렬 */
-	left: 0; /* 왼쪽 정렬 */
-	transform: translateY(-50%); /* 위아래 중앙 정렬 */
 }
 
 
