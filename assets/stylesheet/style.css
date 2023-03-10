@@ -198,18 +198,17 @@ li {
   justify-content: center;
   align-items: center;
   position: relative;
-	width: 80%;
+  width: 80%;
 }
 
 .text-box {
-	display: block;
-	text-align: left;
-	position: absolute;
-	left: 0;
-	right: 0;
-	margin: auto;
-	font-size: 5rem;
+  display: block;
+  text-align: left;
+  position: relative;
+  margin: 0 auto;
+  font-size: 5rem;
 }
+
 
 
 /* 방명록 */
