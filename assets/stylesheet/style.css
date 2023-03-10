@@ -194,18 +194,20 @@ li {
 
 /* 타이핑 애니메이션 */
 .container-typing {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
+
 .text-box {
 	display: inline-block;
-        text-align: left;
-        position: relative;
-        left: 0;
-        right: 0;
-        margin: auto;
+	text-align: left;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
 	font-size: 5rem;
 }
+
 
 /* 방명록 */
 #guestbook-container {
