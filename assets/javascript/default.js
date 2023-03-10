@@ -146,3 +146,11 @@ function typing(){
 		}, stop);
 	});
 }
+
+$(window).on('load', function(){
+    typing(); // 처음 실행
+
+    setInterval(function() { // 3초마다 실행
+        typing();
+    }, 3000);
+});
