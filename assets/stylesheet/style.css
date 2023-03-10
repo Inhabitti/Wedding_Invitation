@@ -193,6 +193,15 @@ li {
 
 
 /* 타이핑 애니메이션 */
+.typing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 2;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
 .text-box {
 	display: inline-block;
 	text-align: left;
