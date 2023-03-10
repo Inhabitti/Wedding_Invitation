@@ -264,3 +264,51 @@ li {
   font-size: 20px;
 }
 
+
+
+
+
+
+
+.wrapper {
+  margin: 0 auto;
+  width: 1280px;
+  height: 2000px;
+  padding: 50px;
+}
+
+.banner {
+  height: 500px;
+  overflow: hidden;
+}
+
+.banner > div {
+  height: 100%;
+  width: 100%;
+  background-image: url(img/newyork.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.banner .container {
+  position: absolute;
+  width: 700px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner div h2 {
+  color: #FEDC45;
+  font-size: 5em;
+  display: inline;
+}
+
+.banner div .cursor {
+  color: #FEDC45;
+  font-size: 5em;
+  opacity: 1;
+}
