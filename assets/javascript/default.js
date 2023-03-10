@@ -109,6 +109,7 @@ text.style.position = "relative";
 text.style.left = "0";
 text.style.right = "0";
 text.style.margin = "auto";
+text.style.textAlign = "left"; // 좌측 정렬 설정
 
 function typing() {
   let txt = content[i++];
@@ -127,5 +128,6 @@ function resetTyping() {
 }
 
 setTimeout(typing, 0); // 최초 딜레이 없이 타이핑 시작
+
 
 
