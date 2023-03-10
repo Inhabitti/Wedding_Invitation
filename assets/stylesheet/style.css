@@ -200,7 +200,6 @@ li {
 	position: relative;
 	margin: auto;
 	align-items: center;
-	height: 100vh;
 }
 
 .text-box {
@@ -211,6 +210,9 @@ li {
 	right: 0;
 	margin: auto;
 	font-size: 5rem;
+	top: 50%; /* 위아래 중앙 정렬 */
+	left: 0; /* 왼쪽 정렬 */
+	transform: translateY(-50%); /* 위아래 중앙 정렬 */
 }
 
 
