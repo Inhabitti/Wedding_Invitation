@@ -189,10 +189,17 @@ li {
   transform: translate(-50%, -50%);
 }
 
+
+
+/* 타이핑 애니메이션 */
+.container-typing {
+	display: flex;
+	justify-content: center;
+}
 .text-box {
 	display: inline-block;
         text-align: left;
-        position: relative;
+        position: absolute;
         left: 0;
         right: 0;
         margin: auto;
