@@ -104,26 +104,45 @@ naver.maps.Event.addListener(marker, "click", function(e) {
 
 
 
+$(window).on('load', function(){
+	$('.typing').each(function(){
+		var txt = $(this).text();
+		var hei = $(this).outerHeight();
 
+		$(this).css({'display':'inline-block'}).html('<span class="dataTxt" style="display:none;">' + txt + '</span>');
+	});
 
-const h2 = document.querySelector('.blinking__txt');
-const cursor = document.querySelector('.cursor');
+	typing();
+});
 
-const typing = function(_, counter = 0) {
-    // 출력할 내용
-  const txt = `Wedding Invitation`;
-  
-  setInterval(() => {
-    // 글자가 모두 출력되면 setInterval을 멈출 것
-    if (txt.length === counter) {
-      cursor.classList.add('blink_animate');
-      return;
-    };
-    // 문자열 하나하나 h2의 텍스트 컨텐츠로 추가한다 
-    h2.textContent += txt[counter];
-    // 카운터 증산
-    counter++;
-  }, 80); 
-};
+function typing(){
+	$('.typing').each(function(){
+		var spd = 100;// 타이핑 속도
+		var txt = $(this).find('.dataTxt').text();
+		var len = txt.length;
+		var stop = (len + 1) * spd;
 
+		$(this).addClass('on');
 
+		$(this).find('.reTxt').remove();
+		$(this).append('<span class="reTxt"></span>');
+
+		var $this = $(this).find('.reTxt');
+
+		var count = 0;
+		var inter = setInterval(function(){
+			count ++;
+			$this.text(txt.substring(0, count));
+
+			$this.closest('.typing').css({'opacity':'1'});
+		}, spd);
+
+		setTimeout(function(){
+			clearInterval(inter);
+			$this.text(txt);
+			setTimeout(function(){
+				$this.closest('.typing').removeClass('on');
+			}, 500);
+		}, stop);
+	});
+}
