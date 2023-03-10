@@ -4828,13 +4828,21 @@
 
 $(document).ready(function() {
   $('[data-fancybox="gallery"]').fancybox({
-    closeClickOutside: true, // 배경 클릭으로 갤러리 닫히도록 설정
-    touch: {
-      vertical: false, // 수직 방향 스와이프 금지
-    },
     loop: true,
     thumbs: {
       autoStart: true,
     },
+    beforeShow: function(instance, current) {
+      // 모바일 기기에서 배경 클릭으로 갤러리 닫기 기능 추가
+      if ('ontouchstart' in window) {
+        $(document).on('click touchstart', '.fancybox-container', function(e) {
+          if (e.target !== this) {
+            return;
+          }
+          instance.close();
+        });
+      }
+    },
   });
 });
+
