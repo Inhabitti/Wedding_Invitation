@@ -198,7 +198,7 @@ li {
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 80%;
+  width: 60%;
 }
 
 .typing {
@@ -210,6 +210,7 @@ li {
 	content:'';
 	position:absolute;
 	left:50%;
+	top: 50%;
 	transform:translateY(-50%);
 	right:-2px;
 	width:1px;
