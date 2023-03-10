@@ -100,29 +100,6 @@ naver.maps.Event.addListener(marker, "click", function(e) {
 });
 
 
-/*타이핑애니메이션*/
-const content = "Wedding Announcement";
-const text = document.querySelector(".text");
-let i = 0;
-
-
-function typing() {
-  let txt = content[i++];
-  text.innerHTML += txt;
-  if (i === content.length) {
-    setTimeout(resetTyping, 5000); // 타이핑 종료 후 5초 딜레이 후에 초기화
-  } else {
-    setTimeout(typing, 200); // 타이핑 중 200ms 딜레이
-  }
-}
-
-function resetTyping() {
-  text.textContent = "";
-  i = 0;
-  setTimeout(typing, 5000); // 초기화 후 5초 딜레이 후에 타이핑 시작
-}
-
-setTimeout(typing, 0); // 최초 딜레이 없이 타이핑 시작
 
 
 
@@ -149,5 +126,4 @@ const typing = function(_, counter = 0) {
   }, 80); 
 };
 
-// 페이지 요소가 로드되면 타이핑 애니메이션을 수행할 것
-window.addEventListener('load', typing);
+
