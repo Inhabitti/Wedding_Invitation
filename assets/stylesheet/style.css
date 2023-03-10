@@ -198,6 +198,7 @@ li {
 	justify-content: center;
 	width: 100%;
 	position: relative;
+	margin: auto;
 }
 
 .text-box {
