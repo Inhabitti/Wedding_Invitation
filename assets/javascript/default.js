@@ -105,11 +105,6 @@ const content = "Wedding Announcement";
 const text = document.querySelector(".text");
 let i = 0;
 
-text.style.position = "relative";
-text.style.left = "0";
-text.style.right = "0";
-text.style.margin = "auto";
-text.style.textAlign = "left"; // 좌측 정렬 설정
 
 function typing() {
   let txt = content[i++];
