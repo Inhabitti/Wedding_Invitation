@@ -197,6 +197,7 @@ li {
 	display: flex;
 	justify-content: center;
 	width: 100%;
+	position: relative;
 }
 
 .text-box {
