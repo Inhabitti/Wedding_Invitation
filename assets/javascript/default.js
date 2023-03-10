@@ -101,16 +101,18 @@ naver.maps.Event.addListener(marker, "click", function(e) {
 
 
 /*타이핑애니메이션*/
-const content = "Wedding Announcement";
+const content = "INVITATION";
 const text = document.querySelector(".text");
 let i = 0;
 
-text.style.display = "inline";
-text.style.textAlign = "left";
+text.style.position = "relative";
+text.style.left = "0";
+text.style.right = "0";
+text.style.margin = "auto";
 
 function typing() {
   let txt = content[i++];
-  text.innerHTML += "&nbsp;" + txt;
+  text.innerHTML += txt;
   if (i === content.length) {
     setTimeout(resetTyping, 5000); // 타이핑 종료 후 5초 딜레이 후에 초기화
   } else {
@@ -121,10 +123,9 @@ function typing() {
 function resetTyping() {
   text.textContent = "";
   i = 0;
-  setTimeout(typing, 3000); // 초기화 후 5초 딜레이 후에 타이핑 시작
+  setTimeout(typing, 5000); // 초기화 후 5초 딜레이 후에 타이핑 시작
 }
 
-text.textContent = "";
 setTimeout(typing, 0); // 최초 딜레이 없이 타이핑 시작
 
 
