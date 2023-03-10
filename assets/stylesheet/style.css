@@ -186,19 +186,6 @@ li {
 }
 
 
-
-/* 타이핑 애니메이션 */
-.typing-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  width: 60%;
-}
-
-
-
-
 /* 방명록 */
 #guestbook-container {
   margin: 0 auto;
@@ -279,3 +266,17 @@ li {
 }
 
 
+
+
+
+#invitation-title {
+  font-size: 7rem;
+  color: #333;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
