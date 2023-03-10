@@ -101,7 +101,7 @@ naver.maps.Event.addListener(marker, "click", function(e) {
 
 
 /*타이핑애니메이션*/
-const content = "INVITATION";
+const content = "Wedding Announcement";
 const text = document.querySelector(".text");
 let i = 0;
 
