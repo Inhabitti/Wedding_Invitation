@@ -101,3 +101,21 @@ naver.maps.Event.addListener(marker, "click", function(e) {
 
 
 
+
+
+
+
+
+
+
+
+const invitationTitle = document.getElementById("invitation-title");
+const text = "Emily & John's Wedding Invitation";
+let index = 0;
+
+setInterval(() => {
+  invitationTitle.innerHTML = text.slice(0, index);
+  index++;
+}, 100);
+
+
