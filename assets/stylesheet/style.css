@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
   padding: 0;
   height: calc(100vw*16/9); /* 9:16 비율 */
-  max-width: 900px; 
+  max-width: 1024px; 
 }
 
 @media screen and (min-width: 640px) {
