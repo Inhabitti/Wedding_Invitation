@@ -201,11 +201,31 @@ li {
   width: 80%;
 }
 
-.text-box {
-  text-align: left;
-  position: relative;
-  margin: 0 auto;
-  font-size: 5rem;
+.typing {
+	position:relative;
+	opacity:0;
+	font-size: 5rem;
+}
+.typing.on:after {
+	content:'';
+	position:absolute;
+	left:50%;
+	transform:translateY(-50%);
+	right:-2px;
+	width:1px;
+	height:18px;
+	background-color:#000;
+	opacity:0;
+	animation:cursor .4s steps(2) infinite;
+}
+
+@keyframes cursor {
+	0 {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
 }
 
 
@@ -314,8 +334,4 @@ li {
 	100% {
 		opacity:1;
 	}
-}
-
-.span {
-	font-size: 5em;
 }
