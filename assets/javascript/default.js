@@ -110,7 +110,7 @@ naver.maps.Event.addListener(marker, "click", function(e) {
 
 
 const invitationTitle = document.getElementById("invitation-title");
-const text = "Emily & John's Wedding Invitation";
+const text = "Wedding Invitation";
 let index = 0;
 
 setInterval(() => {
