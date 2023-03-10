@@ -190,10 +190,12 @@ li {
 }
 
 .text-box {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100px;
+	display: inline-block;
+        text-align: left;
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: auto;
 	font-size: 5rem;
 }
 
