@@ -290,47 +290,29 @@ li {
 }
 
 
-
-
-.wrapper {
-  margin: 0 auto;
-  width: 1280px;
-  height: 2000px;
-  padding: 50px;
+.typing {
+	position:relative;
+	opacity:0;
+}
+.typing.on:after {
+	content:'';
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	right:-2px;
+	width:1px;
+	height:18px;
+	background-color:#000;
+	opacity:0;
+	animation:cursor .4s steps(2) infinite;
 }
 
-.banner {
-  height: 500px;
-  overflow: hidden;
+@keyframes cursor {
+	0 {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
 }
 
-.banner > div {
-  height: 100%;
-  width: 100%;
-  background-image: url(../../img/1.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-}
-
-.banner .container {
-  position: absolute;
-  width: 700px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.banner div h2 {
-  color: #FEDC45;
-  font-size: 5em;
-  display: inline;
-}
-
-.banner div .cursor {
-  color: #FEDC45;
-  font-size: 5em;
-  opacity: 1;
-}
