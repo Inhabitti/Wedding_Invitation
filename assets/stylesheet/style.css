@@ -45,6 +45,7 @@ h1 {
 	text-align: center;
 	vertical-align: top;
 	padding-top: 50px;
+	z-index: 0;
 }
 
 .main-text {
