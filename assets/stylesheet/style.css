@@ -270,7 +270,7 @@ li {
 
 
 h2 {
-  font-size: 20px;
+  font-size: 150px;
   min-width:11px;
   white-space: nowrap;
   margin: 0;
@@ -282,7 +282,7 @@ h2 {
 }
 
 h2::before {
-  content: "Typing Effect with CSS";
+  content: "Wedding Invitation";
   position: absolute;
   top: 0;
   left: 0;
