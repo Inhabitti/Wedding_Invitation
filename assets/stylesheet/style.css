@@ -59,6 +59,7 @@ h1 {
   font-style: normal;
   color: #010101;
   text-align: center;
+	z-index: -1;
 }
 
 
@@ -273,7 +274,7 @@ h2 {
   min-width:11px;
   white-space: nowrap;
   margin: 0;
-  position: fixed;
+  position: relative;
   color: transparent;
   top:50%;
   left:50%;
