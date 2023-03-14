@@ -297,7 +297,7 @@ h2::before {
   color: black;
   overflow: hidden;
   border-right: 1px solid black;
-  animation: typing 5s steps(31) infinite;
+  animation: typing 10s steps(31) infinite;
 }
 
 @keyframes typing{
