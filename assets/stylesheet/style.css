@@ -59,7 +59,7 @@ h1 {
   color: #010101;
   text-align: center;
 	 position: absolute;
-  bottom: 0;
+  bottom: 20%;
   left: 50%;
   transform: translateX(-50%);
   font-size: 60px;
@@ -74,6 +74,7 @@ p {
   color: #010101;
   text-align: center;
   padding: 50px 0 0 0;
+	line-height: 1.5;
 }
 
 @font-face {
@@ -281,7 +282,6 @@ h2 {
   margin: 0;
   position: absolute;
   color: transparent;
-  top:50%;
   left:50%;
   transform: translate(-50%, -50%);
 	z-index: 2;
