@@ -51,11 +51,12 @@ h1 {
   line-height: 2;
 }
 
-.span {
+.main-name {
   font-size: 7em;
   font-style: normal;
   color: #010101;
   text-align: center;
+	
 }
 
 
