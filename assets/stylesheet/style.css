@@ -17,7 +17,6 @@ body {
 
 section {
   background-color: #FDF8EB;
-  padding: 50px 0;
 }
 
 .section1 {
@@ -52,15 +51,11 @@ h1 {
   line-height: 2;
 }
 
-.main-name {
+.span {
   font-size: 7em;
   font-style: normal;
   color: #010101;
   text-align: center;
-	position: fixed;
-  bottom: 20%;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 
