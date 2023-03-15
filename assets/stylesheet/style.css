@@ -17,11 +17,11 @@ body {
 
 section {
   background-color: #FDF8EB;
-	display: block;
 }
 
 .section1 {
 	padding-top: 150px;
+	display: block;
 }
 
 .section3 {
