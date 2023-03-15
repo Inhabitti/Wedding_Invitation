@@ -27,6 +27,15 @@ section {
 
 .section3 {
         height: 800px;
+	padding-bottom: 150px;
+}
+
+.section4 {
+	padding-bottom: 150px;
+}
+
+.section5 {
+	padding-bottom: 150px;
 }
 
 img {
