@@ -17,6 +17,7 @@ body {
 
 section {
   background-color: #FDF8EB;
+	display: block;
 }
 
 .section1 {
