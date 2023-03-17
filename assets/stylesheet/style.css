@@ -52,6 +52,7 @@ h1 {
   justify-content: center;
   align-items: center;
   line-height: 2;
+	padding-top: 50px;
 }
 
 .main-name {
@@ -271,7 +272,7 @@ li {
 
 
 h2 {
-  font-size: 150px;
+  font-size: 120px;
   min-width:11px;
   white-space: nowrap;
   margin: 0;
