@@ -20,10 +20,24 @@ section {
 }
 
 .section1 {
+	position: relative; /* 부모 요소에 상대적으로 배치됨 */
+	width: 100%;
+	height: 100vh; /* 뷰포트 높이만큼 */
+	background-color: #FDF8EB;
+	text-align: center;
 	padding-top: 150px;
-	padding-bottom: 150px;
 	display: block;
 }
+section1::before {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.inner {
+  display: inline-block;
+  vertical-align: middle;
+  width: 40%;
 
 .section3 {
         height: 800px;
