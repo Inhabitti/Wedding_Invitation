@@ -15,21 +15,19 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
 </head>
 
 <body>
     <div id="main" class="container">
         <section class="section1">
-            <div class="inner">
-                <div id="target">
-                    <h2>초대합니다</h2>
-                </div>
-                <div class="main-text">
-                    <p><b>2023</b>년 <b>5</b>월 <b>6</b>일 <b>토</b>요일 오후 <b>2</b>시<br>에스가든웨딩홀 4층 르씨엘 홀</p>
-                </div>
-                <div>
-                    <p class="main-name">이보인&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이유환</p>
-                </div>
+            <div class="main-text">  
+                <span class="auto-type"></span>
+                <p><b>2023</b>년 <b>5</b>월 <b>6</b>일 <b>토</b>요일 오후 <b>2</b>시<br>에스가든웨딩홀 4층 르씨엘 홀</p>
+            </div>
+            <div>  
+                <p class="main-name">이보인&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이유환</p>
+            </div>
         </section>
         <section>
             <div>
@@ -64,31 +62,31 @@
                 <a href="img/1.jpg" data-fancybox="gallery">
                     <img src="img/1.jpg" />
                 </a>
-                <a href="img/2.jpg" data-fancybox="gallery">
+                 <a href="img/2.jpg" data-fancybox="gallery">
                     <img src="img/2.jpg" />
                 </a>
-                <a href="img/3.jpg" data-fancybox="gallery">
+                 <a href="img/3.jpg" data-fancybox="gallery">
                     <img src="img/3.jpg" />
                 </a>
-                <a href="img/4.jpg" data-fancybox="gallery">
+                 <a href="img/4.jpg" data-fancybox="gallery">
                     <img src="img/4.jpg" />
                 </a>
-                <a href="img/5.jpg" data-fancybox="gallery">
+                 <a href="img/5.jpg" data-fancybox="gallery">
                     <img src="img/5.jpg" />
                 </a>
-                <a href="img/6.jpg" data-fancybox="gallery">
+                 <a href="img/6.jpg" data-fancybox="gallery">
                     <img src="img/6.jpg" />
                 </a>
-                <a href="img/7.jpg" data-fancybox="gallery">
+                 <a href="img/7.jpg" data-fancybox="gallery">
                     <img src="img/7.jpg" />
                 </a>
-                <a href="img/8.jpg" data-fancybox="gallery">
+                 <a href="img/8.jpg" data-fancybox="gallery">
                     <img src="img/8.jpg" />
                 </a>
-                <a href="img/9.jpg" data-fancybox="gallery">
+                 <a href="img/9.jpg" data-fancybox="gallery">
                     <img src="img/9.jpg" />
                 </a>
-                <a href="img/10.jpg" data-fancybox="gallery">
+                 <a href="img/10.jpg" data-fancybox="gallery">
                     <img src="img/10.jpg" />
                 </a>
             </div>
@@ -142,11 +140,18 @@
 
                 // 메시지가 표시될 영역에 li 요소를 추가
                 document.getElementById('guestbook-messages').appendChild(messageLi);
-
+                
                 // 입력 필드를 초기화하여 새로운 메시지를 입력할 수 있도록 함
                 document.getElementById('guestbook-input').value = '';
             });
         </script>
+        <script>
+            const typed = new Typed(".auto-type", {
+                string: ["Wedding Invitation"],
+                typeSpeed: 150,
+                backSpeed: 150,
+                loop: true
+            })
+        </script>
 </body>
-
 </html>
