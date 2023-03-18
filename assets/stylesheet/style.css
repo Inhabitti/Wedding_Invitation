@@ -26,6 +26,7 @@ section {
 	text-align: center;
 	padding-top: 150px;
 	display: block;
+	height: 2700px;
 }
 section1::before {
   display: inline-block;
