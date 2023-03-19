@@ -18,8 +18,8 @@ body {
 
 section {
   background-color: #FDF8EB;
-	height: calc(100vw * 9 / 16); /* 뷰포트 가로길이의 9:16 비율 */
-  max-height: 100vh;
+	width: 1024px;
+	height: 1813px;
 }
 
 .section1 {
