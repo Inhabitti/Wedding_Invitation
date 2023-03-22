@@ -76,9 +76,10 @@ h2 {
   justify-content: center;
   align-items: center;
   line-height: 2;
+	opacity: 0;
 	animation-name: fade-in;
-	animation-delay: 7s;
-	animation-duration: 7s;
+	animation-delay: 5s;
+	animation-duration: 2s;
 }
 
 @keyframes fade-in {
@@ -96,6 +97,10 @@ h2 {
   color: #010101;
   text-align: center;
 	margin: 0;
+	opacity: 0;
+	animation-name: fade-in;
+	animation-delay: 7s;
+	animation-duration: 3s;
 }
 
 
