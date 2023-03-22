@@ -61,9 +61,6 @@ h1 {
 	color: #010101;
 	text-align: center;
 	vertical-align: top;
-	animation-name: fade-in;
-	animation-delay: 10s;
-	animation-duration: 7s;
 }
 
 h2 {
@@ -78,8 +75,8 @@ h2 {
   line-height: 2;
 	opacity: 0;
 	animation-name: fade-in;
-	animation-delay: 5s;
-	animation-duration: 2s;
+	animation-delay: 7s;
+	animation-duration: infinite;
 }
 
 @keyframes fade-in {
@@ -99,8 +96,8 @@ h2 {
 	margin: 0;
 	opacity: 0;
 	animation-name: fade-in;
-	animation-delay: 7s;
-	animation-duration: 3s;
+	animation-delay: 10s;
+	animation-duration: infinite;
 }
 
 
