@@ -124,6 +124,7 @@ li {
 
 
 /* 축의금 버튼 스타일 */
+.wrap{padding:10px;}
 .btn_open{font-weight:bold; margin:5px; padding:4px 6px; background:#000; color:#fff;}
 .pop_wrap{position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,.5); font-size:0; text-align:center;}
 .pop_wrap:after{display:inline-block; height:100%; vertical-align:middle; content:'';}
