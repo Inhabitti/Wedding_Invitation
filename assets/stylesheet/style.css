@@ -206,7 +206,7 @@ li {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
+.pop_wrap .pop_inner{display:inline-block; padding:20px 30px; background:#fff; width:200px; vertical-align:middle; font-size:15px;}
 
 /* 방명록 */
 #guestbook-container {
