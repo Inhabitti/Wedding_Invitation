@@ -95,7 +95,7 @@ p {
 
 @font-face {
 	font-family: 'Gowun';
-	src: url('../../GowunBatang-Reguglar.ttf') format('truetype');
+	src: url('../../GowunBatang-Regular.ttf') format('truetype');
 	unicode-range: U+AC00-D7A3, U+0030-0039; /* 한글과 숫자 유니코드 범위 */
 }
 
