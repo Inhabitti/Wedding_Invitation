@@ -76,7 +76,7 @@ h2 {
 	opacity: 0;
 	animation-name: fade-in;
 	animation-delay: 7s;
-	animation-duration: infinite;
+	animation-duration: 3s;
 }
 
 @keyframes fade-in {
@@ -97,7 +97,7 @@ h2 {
 	opacity: 0;
 	animation-name: fade-in;
 	animation-delay: 10s;
-	animation-duration: infinite;
+	animation-duration: 3s;
 }
 
 
