@@ -11,6 +11,8 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"/>
     <script src="https://unpkg.com/hangul-js"></script>
     <script src="https://unpkg.com/type-hangul@latest/dist/type-hangul.min.js"></script>
     <script src="https://unpkg.com/type-hangul"></script>
@@ -70,6 +72,24 @@
                     <img src="img/10.jpg" />
                 </a>
             </div>
+            <div>
+                <div class="f-carousel" id="myCarousel">
+                    <div class="f-carousel__slide" data-thumb-src="https://lipsum.app/id/31/192x144">
+                        <img alt="" data-lazy-src="https://lipsum.app/id/31/640x480"/>
+                    <div class="f-carousel__slide" data-thumb-src="https://lipsum.app/id/31/192x144">
+                        <img alt="" data-lazy-src="https://lipsum.app/id/31/640x480"/>
+                    <div class="f-carousel__slide" data-thumb-src="https://lipsum.app/id/31/192x144">
+                        <img alt="" data-lazy-src="https://lipsum.app/id/31/640x480"/>
+                </div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.thumbs.umd.js"></script>
+            <script>
+                    const container = document.getElementById("myCarousel");
+                    const options = { Dots: false };
+                    
+                    new Carousel(container, options, { Thumbs });
+            </script>
         </section>
         <section class="section2">
             <div>
