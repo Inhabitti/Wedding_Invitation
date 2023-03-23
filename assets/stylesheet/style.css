@@ -60,6 +60,7 @@ img {
 	width: 60%;
 	padding-bottom: 150px;
 	margin: auto;
+	opacity: 0;
 }
 
 /* 텍스트 설정 */
