@@ -25,6 +25,8 @@ section {
 .section1 {
 	position: relative; /* 부모 요소에 상대적으로 배치됨 */
 	background-image: url('../../img/back.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 	background-color: #FDF8EB;
 	text-align: center;
 	padding-top: 50px;
