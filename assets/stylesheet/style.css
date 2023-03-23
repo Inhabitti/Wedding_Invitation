@@ -4,7 +4,7 @@ body {
   font-family: 'Gowun', 'Tangerine-Bold';
   margin: 0 auto;
   padding: 0;
-  height: calc(100vw*16/9); /* 9:16 비율 */
+  height: calc(100vw*16/9);
   max-width: 1024px; 
 }
 
@@ -20,10 +20,11 @@ section {
   background-color: #FDF8EB;
 	width: 1024px;
 	height: 1813px;
+	padding-top: 200px;
 }
 
 .section1 {
-	position: relative; /* 부모 요소에 상대적으로 배치됨 */
+	position: relative;
 	background-image: url('../../img/back.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -144,9 +145,9 @@ li {
 
 .button-container {
   display: flex;
-  justify-content: center; /* 버튼을 수평 중앙 정렬 */
-  margin: 20px; /* 가시성을 위해 간격 추가 */
-  align-items: center; /* 버튼을 수직 가운데 정렬 */
+  justify-content: center;
+  margin: 20px;
+  align-items: center;
 }
 
 
