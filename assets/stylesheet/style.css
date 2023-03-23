@@ -52,6 +52,10 @@ img {
 	height: auto;
 }
 
+.header-img {
+	width: 60%;
+	padding-bottom: 50px;
+}
 
 /* 텍스트 설정 */
 
