@@ -17,7 +17,7 @@ body {
 }
 
 section {
-  background-color: #FDF1F7;
+  background-color: #FFF3F9;
 	width: 1024px;
 	height: 1813px;
 	padding-top: 80px;
@@ -26,7 +26,7 @@ section {
 .section1 {
 	position: relative;
 
-	background-color: #FDF1F7;
+	background-color: #FFF3F9;
 	text-align: center;
 	padding-top: 50px;
 	display: block;
