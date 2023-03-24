@@ -307,6 +307,11 @@ li {
         align-items: center;
 }
 
+#myCarousesl .f-carousel__dots {
+	display: none;
+}
+
+
 .iw_inner h3{
 	font-style: normal;
 	font-size: 2em;
