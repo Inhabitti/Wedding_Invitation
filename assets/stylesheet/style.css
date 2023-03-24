@@ -36,9 +36,6 @@ section1::before {
   height: 100%;
   vertical-align: middle;
 }
-.section-img {
-	height: 2500px;
-}
 
 .inner {
   display: inline-block;
