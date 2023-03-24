@@ -17,7 +17,7 @@ body {
 }
 
 section {
-  background-color: #FBF7F8;
+  background-color: #FDF1F7;
 	width: 1024px;
 	height: 1813px;
 	padding-top: 80px;
@@ -26,7 +26,7 @@ section {
 .section1 {
 	position: relative;
 
-	background-color: #FBF7F8;
+	background-color: #FDF1F7;
 	text-align: center;
 	padding-top: 50px;
 	display: block;
@@ -52,7 +52,8 @@ img {
 
 .img-header {
 	width: 80%;
-	padding-bottom: 150px;
+	padding-top: 100px;
+	padding-bottom: 400px;
 	margin: auto;
 	opacity: 1;
 }
