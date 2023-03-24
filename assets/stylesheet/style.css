@@ -306,3 +306,14 @@ li {
         justify-content: center;
         align-items: center;
 }
+
+.iw_inner h3{
+	font-style: normal;
+	font-size: 2em;
+}
+
+.iw_inner p{
+	font-style: normal;
+	font-size: 1em;
+}
+	
