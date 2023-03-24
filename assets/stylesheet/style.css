@@ -298,3 +298,15 @@ li {
 .btn_map: last-of-type {
         margin-left: 50px;
 }
+
+
+#myCarousel {
+        max-width: 640px;
+        margin: 0 auto;
+}
+
+#myCarousel .f-carousel__slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
