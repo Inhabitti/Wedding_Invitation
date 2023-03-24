@@ -40,10 +40,9 @@
         </section>
         <section class="section-img">
             <div>
-                <img src="img/real.jpg" alt="">
-            </div>
-            <div>
                 <div class="f-carousel" id="myCarousel">
+                    <div class="f-carousel__slide" data-thumb-src="img/real.jpg" data-fancybox="img/real.jpg" data-src="img/real.jpg">
+                        <img width="640" height="480" alt="" data-lazy-src="img/real.jpg" />
                     <div class="f-carousel__slide" data-thumb-src="img/1.jpg">
                         <img width="640" height="480" alt="" data-lazy-src="img/1.jpg" />
                     </div>
@@ -124,6 +123,7 @@
                     type: "modern",
                 },
                 infinite: true
+                dots: false
             };
 
             new Carousel(container, options, { Thumbs });
