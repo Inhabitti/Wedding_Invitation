@@ -25,9 +25,7 @@ section {
 
 .section1 {
 	position: relative;
-	background-image: url('../../img/back.png');
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
+
 	background-color: #FDF8EB;
 	text-align: center;
 	padding-top: 50px;
@@ -56,10 +54,10 @@ img {
 }
 
 .img-header {
-	width: 60%;
+	width: 80%;
 	padding-bottom: 150px;
 	margin: auto;
-	opacity: 0;
+	opacity: 1;
 }
 
 /* 텍스트 설정 */
