@@ -72,9 +72,9 @@ var WeddingHall = new naver.maps.LatLng(36.3456884, 127.3545292),
 
 var contentString = [
     '<div class="iw_inner">',
-    '   <h3><b>S</b>가든웨딩</h3>',
-    '   <p>대전광역시 서구</br>월드컵대로484번안길 10<br />',
-    '       <a href="https://naver.me/FQaRiSBj" target="_blank">정보</a>',
+    '   <h3>에스가든웨딩</h3>',
+    '   <p>대전광역시 서구</br>월드컵대로484번안길 10</br>',
+    '       <a href="https://naver.me/FQaRiSBj" target="_blank">네이버 지도에서 보기</a>',
     '   </p>',
     '</div>'
 ].join('');
