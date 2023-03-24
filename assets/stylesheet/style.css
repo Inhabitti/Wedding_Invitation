@@ -17,7 +17,7 @@ body {
 }
 
 section {
-  background-color: #FEEFF3;
+  background-color: #FBF7F8;
 	width: 1024px;
 	height: 1813px;
 	padding-top: 80px;
@@ -26,7 +26,7 @@ section {
 .section1 {
 	position: relative;
 
-	background-color: #FEEFF3;
+	background-color: #FBF7F8;
 	text-align: center;
 	padding-top: 50px;
 	display: block;
@@ -40,7 +40,7 @@ section1::before {
 .inner {
   display: inline-block;
   vertical-align: middle;
-  width: 0;
+  writing-mode: vertical-lr;
 }
 
 
