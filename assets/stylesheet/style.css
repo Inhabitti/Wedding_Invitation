@@ -251,9 +251,6 @@ li {
 
 .btn_map{
 	background-color: #ffffff;
-	background-image: url('../../img/nmap.png');
-	background-repeat: no-repeat;
-        background-size: 100% 100%;
 	border: none;
 	border-radius: 20px;
 	color: #2e2e2e;
@@ -298,6 +295,23 @@ li {
         margin-left: 50px;
 }
 
+.btn_map:nth-of-type(1) {
+        background-image: url('../../img/navermap.png');
+	background-repeat: no-repeat;
+        background-size: 100% 100%;
+}
+
+.btn_map:nth-of-type(2) {
+        background-image: url('../../img/kakaomap.png');
+	background-repeat: no-repeat;
+        background-size: 100% 100%;
+}
+
+.btn_map:nth-of-type(3) {
+        background-image: url('../../img/tmap.png');
+	background-repeat: no-repeat;
+        background-size: 100% 100%;
+}
 
 #myCarousel {
         max-width: 1024px;
