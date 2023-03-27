@@ -5,7 +5,7 @@ body {
   margin: 0 auto;
   padding: 0;
   height: calc(100vw*16/9);
-  max-width: 1024px; 
+  max-width: 720px; 
 }
 
 
@@ -18,9 +18,9 @@ body {
 
 section {
   background-color: #FFFEFA;
-	width: 1024px;
-	height: 1813px;
-	padding-top: 80px;
+	width: 720px;
+	height: 1280px;
+	padding-top: 50px;
 }
 
 .section1 {
