@@ -15,9 +15,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.thumbs.css" />
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.thumbs.umd.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
-    <script src="https://unpkg.com/hangul-js"></script>
-    <script src="https://unpkg.com/type-hangul@latest/dist/type-hangul.min.js"></script>
-    <script src="https://unpkg.com/type-hangul"></script>
+    <script src="assets/javascript/type-hangul.min.js"></script>
 </head>
 
 <body>
@@ -72,7 +70,7 @@
             <div>
                 <h1>Location</h1>
             </div>
-            <div id="map" style="width:800px;height:600px;margin:auto;text-align:center;"></div>
+            <div id="map" style="width:1024px;height:600px;margin:auto;text-align:center;"></div>
             <div class="button-container">
                 <a href="nmap://route/public?dlat=36.3456884&dlng=127.3545292&dname=S%EA%B0%80%EB%93%A0%EC%9B%A8%EB%94%A9" class="btn_map"></a>
                 <a href="https://map.kakao.com/link/to/36.3456884,127.3545292" class="btn_map"></a>
@@ -83,8 +81,10 @@
             <div>
                 <h1>Contact Details</h1>
             </div>
+            </div>
                                  <p>신랑에게 연락하기</p>
                                  <p>신부에게 연락하기</p>
+            </div>
             <div class="wrap">
                 <a href="#pop_info1" class="btn_open">신랑측에 마음 전하기</a>
                 <a href="#pop_info2" class="btn_open">신부측에 마음 전하기</a>
@@ -135,28 +135,6 @@
             };
             var map = new naver.maps.Map('map', mapOptions);
             infowindow.open(map, marker);
-        </script>
-        <script>
-            // 이벤트 리스너를 추가하여 form 전송 시 동작하도록 함
-            document.getElementById('guestbook-form').addEventListener('submit', function(event) {
-                // 기본 전송 동작을 막음
-                event.preventDefault();
-
-                // 입력된 메시지를 가져와 변수에 저장
-                var message = document.getElementById('guestbook-input').value;
-
-                // 메시지를 표시할 li 요소를 생성
-                var messageLi = document.createElement('li');
-
-                // li 요소에 메시지 내용을 추가
-                messageLi.textContent = message;
-
-                // 메시지가 표시될 영역에 li 요소를 추가
-                document.getElementById('guestbook-messages').appendChild(messageLi);
-
-                // 입력 필드를 초기화하여 새로운 메시지를 입력할 수 있도록 함
-                document.getElementById('guestbook-input').value = '';
-            });
         </script>
         <script>
             var $target = document.querySelector('#target');
