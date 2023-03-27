@@ -52,8 +52,8 @@ img {
 
 .img-header {
 	width: 80%;
-	padding-top: 50px;
-	padding-bottom: 150px;
+	padding-top: 30px;
+	padding-bottom: 100px;
 	margin: auto;
 	opacity: 1;
 }
@@ -61,7 +61,7 @@ img {
 /* 텍스트 설정 */
 
 h1 {
-	font-size: 5em;
+	font-size: 3vw;
 	font-style: normal;
 	color: #010101;
 	text-align: center;
@@ -69,7 +69,7 @@ h1 {
 }
 
 h2 {
-	font-size: 6em;
+	font-size: 4vw;
 	text-align: left;
 }
 
@@ -95,7 +95,7 @@ h2 {
 }
 
 .main-name {
-  font-size: 5em;
+  font-size: 3vw;
   font-style: normal;
   color: #010101;
   text-align: center;
@@ -207,7 +207,7 @@ li {
 	font-size: 24px;
 	font-weight: bold;
 	margin: 20px;
-	padding: 60px 60px;
+	padding: 40px 40px;
 	position: relative;
 	text-align: center;
 	text-decoration: none;
