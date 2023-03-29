@@ -131,8 +131,10 @@
                 zoom: 12
 
             };
-            var map = new naver.maps.Map('map', mapOptions);
-            infowindow.open(map, marker);
+            var marker = new naver.maps.Marker({
+                                  position: new naver.maps.LatLng(36.3456884, 127.3545292),
+                                  map: map
+                                  });
         </script>
         <script>
             var $target = document.querySelector('#target');
