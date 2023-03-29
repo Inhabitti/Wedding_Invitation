@@ -138,9 +138,9 @@ p {
   padding: 20px;
 }
 
-#text-container p {
+#container1 p {
   margin: 0;
-  text-align: left;
+  padding: 0;
 }
 
 .btn_map{
