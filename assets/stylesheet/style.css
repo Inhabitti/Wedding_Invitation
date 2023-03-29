@@ -8,6 +8,12 @@ body {
   max-width: 720px; 
 }
 
+@media (max-width: 720px) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
 
 section {
   background-color: #FFFEFA;
