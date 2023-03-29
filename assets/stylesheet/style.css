@@ -223,7 +223,13 @@ p {
 hr {
 	width: 80%;
 	border: 5px;
-	
+	border-style: solid;
 	color: #efe1ad;
 	margin: 20px 0;
+}
+
+pre {
+	font-family: 'Gowun';
+	font-size: 3em;
+	text-align: left;
 }
