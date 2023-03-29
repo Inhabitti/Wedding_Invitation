@@ -135,14 +135,14 @@ p {
 .btn_map{
 	background-color: #ffffff;
 	border: none;
-	border-radius: 20px;
+	border-radius: 10px;
 	color: #2e2e2e;
 	display: inline-block;
 	font-family: 'NanumSquareRoundExtraBold';
 	font-size: 24px;
 	font-weight: bold;
 	margin: 20px;
-	padding: 30px 30px;
+	padding: 50px 50px;
 	position: relative;
 	text-align: center;
 	text-decoration: none;
@@ -154,7 +154,7 @@ p {
 
 .btn_map::before {
 	background-color: #2e2e2e;
-	border-radius: 20px;
+	border-radius: 10px;
 	bottom: -10px;
 	content: "";
 	left: -10px;
