@@ -54,7 +54,7 @@ img {
 /* 텍스트 설정 */
 
 h1 {
-	font-size: 3vw;
+	font-size: 2vw;
 	font-style: normal;
 	color: #010101;
 	text-align: center;
@@ -62,7 +62,7 @@ h1 {
 }
 
 h2 {
-	font-size: 4vw;
+	font-size: 3vw;
 	text-align: left;
 }
 
@@ -88,7 +88,7 @@ h2 {
 }
 
 .main-name {
-  font-size: 3vw;
+  font-size: 2vw;
   font-style: normal;
   color: #010101;
   text-align: center;
