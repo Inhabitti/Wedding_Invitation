@@ -228,6 +228,18 @@ hr {
 	margin: 0 auto;
 }
 
+.hr1 {
+	padding-bottom: 50px;
+}
+
+.hr3 {
+	padding-top: 200px;
+}
+
+.hr4 .hr5 {
+	border: 1px;
+	width: 60%;
+}
 pre {
 	font-family: 'Gowun';
 	font-size: 1em;
