@@ -88,7 +88,7 @@
                 <div class="button-container">
                     <a href="nmap://route/public?dlat=36.3456884&dlng=127.3545292&dname=S%EA%B0%80%EB%93%A0%EC%9B%A8%EB%94%A9" class="btn_map"></a>
                     <a href="https://map.kakao.com/link/to/36.3456884,127.3545292" class="btn_map"></a>
-                    <a href="https://apis.openapi.sk.com/tmap/app/routes?appKey=l7xx7179ddde21ca4bfb8e6b03c710138f41&name="+name+"&lon="+lng+"&lat="+lat;" class="btn_map"></a>
+                    <a href="https://apis.openapi.sk.com/tmap/app/routes?appKey=l7xx7179ddde21ca4bfb8e6b03c710138f41&name=" class="btn_map"></a>
                 </div>
             </div>
             <div>
@@ -96,10 +96,24 @@
                 <h1>Contact Details</h1>
             </div>
             <div>
-               <p>신랑에게 연락하기</p>
-               <hr class="hr4">
-               <p>신부에게 연락하기</p>
-               <hr class="hr5">
+                <p>신랑에게 연락하기</p>
+                <hr class="hr4">
+                <div id="contact1">
+                    <p>신랑 <b>유환</b></p>
+                    <div class="button-container">
+                        <a href="" class="btn1">연락하기</a>
+                        <a href="" class="btn1">마음 전하기</a>
+                    </div>
+                </div>
+                <div id="contact1">
+                    <p>신랑측 혼주</p>
+                    <div class="button-container">
+                        <a href="" class="btn1">연락하기</a>
+                        <a href="" class="btn1">마음 전하기</a>
+                    </div>
+                </div>
+                <p>신부에게 연락하기</p>
+                <hr class="hr5">
             </div>
         </section>
         <script src="assets/javascript/default.js"></script>
@@ -115,7 +129,9 @@
                 infinite: true
             };
 
-            new Carousel(container, options, { Thumbs });
+            new Carousel(container, options, {
+                Thumbs
+            });
         </script>
         <script>
             var mapOptions = {
@@ -134,9 +150,9 @@
 
             };
             var marker = new naver.maps.Marker({
-                                  position: new naver.maps.LatLng(36.3456884, 127.3545292),
-                                  map: map
-                                  });
+                position: new naver.maps.LatLng(36.3456884, 127.3545292),
+                map: map
+            });
         </script>
         <script>
             var $target = document.querySelector('#target');
