@@ -63,7 +63,7 @@ img {
 h1 {
 	font-size: 5em;
 	font-style: normal;
-	color: #010101;
+	color: #efe1ad;
 	text-align: center;
 	vertical-align: top;
 }
@@ -207,7 +207,7 @@ li {
 	font-size: 24px;
 	font-weight: bold;
 	margin: 20px;
-	padding: 60px 60px;
+	padding: 30px 30px;
 	position: relative;
 	text-align: center;
 	text-decoration: none;
@@ -288,3 +288,9 @@ li {
 	font-size: 1em;
 }
 	
+.hr {
+	width: 80%;
+	border: 5px;
+	color: #efe1ad;
+	margin: 20px 0;
+}
