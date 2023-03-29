@@ -37,6 +37,10 @@ section1::before {
   vertical-align: middle;
 }
 
+.section2 {
+	height: 2500px;
+}
+
 .inner {
   display: inline-block;
   vertical-align: middle;
