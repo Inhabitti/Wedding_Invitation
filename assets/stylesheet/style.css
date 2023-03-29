@@ -254,9 +254,9 @@ pre {
 
 #contact1 {
 	display: flex;
+	width: 60%;
   justify-content: space-between;
   align-items: center;
-  background-color: #eee;
   padding: 20px;
 }
 
