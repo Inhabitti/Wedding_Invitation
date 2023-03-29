@@ -9,13 +9,6 @@ body {
 }
 
 
-@media screen and (min-width: 640px) {
-  body {
-    height: 100vh;
-    font-size: 100%;
-  }
-}
-
 section {
   background-color: #FFFEFA;
 	width: 720px;
