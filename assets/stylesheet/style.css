@@ -130,7 +130,18 @@ p {
 	unicode-range: U+0041-005A, U+0061-007A, U+2200-2FFF; /* 영어 대문자, 소문자, 특수문자 */
 }
 
+#container1 {
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eee;
+  padding: 20px;
+}
 
+#text-container p {
+  margin: 0;
+  text-align: left;
+}
 
 .btn_map{
 	background-color: #ffffff;
