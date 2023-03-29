@@ -229,14 +229,18 @@ hr {
 }
 
 .hr1 {
-	padding-bottom: 50px;
+	margin-bottom: 100px;
 }
 
 .hr3 {
-	padding-top: 200px;
+	margin-top: 200px;
 }
 
-.hr4 .hr5 {
+.hr4 {
+	border: 1px;
+	width: 60%;
+}
+.hr5 {
 	border: 1px;
 	width: 60%;
 }
