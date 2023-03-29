@@ -251,3 +251,17 @@ pre {
 	font-size: 1em;
 	text-align: left;
 }
+
+#contact1 {
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eee;
+  padding: 20px;
+}
+
+#contact1 p {
+  margin: 0;
+  padding: 0;
+	font-family: 'Gowun'
+}
