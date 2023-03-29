@@ -237,11 +237,13 @@ hr {
 }
 
 .hr4 {
-	border: 1px;
+	border: 2px;
+	border-style: solid;
 	width: 60%;
 }
 .hr5 {
-	border: 1px;
+	border: 2px;
+	border-style: solid;
 	width: 60%;
 }
 pre {
