@@ -222,10 +222,10 @@ p {
 	
 hr {
 	width: 80%;
-	border: 5px;
+	border: 4px;
 	border-style: solid;
 	color: #efe1ad;
-	margin: 20px 0;
+	margin: 0 auto;
 }
 
 pre {
