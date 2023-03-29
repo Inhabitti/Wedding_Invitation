@@ -131,71 +131,6 @@ p {
 }
 
 
-li {
-	list-style: none;
-}
-
-#visual {
-	margin: 0;
-}
-
-.button-container {
-  display: flex;
-  justify-content: center;
-  margin: 20px;
-  align-items: center;
-}
-
-
-/* 축의금 버튼 스타일 */
-.wrap{padding:10px;}
-.btn_open{font-weight:bold; margin:5px; padding:4px 6px; background:#000; color:#fff;}
-.pop_wrap{position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,.5); font-size:0; text-align:center;}
-.pop_wrap:after{display:inline-block; height:100%; vertical-align:middle; content:'';}
-.pop_wrap .pop_inner{display:inline-block; padding:20px 30px; background:#fff; width:200px; vertical-align:middle; font-size:15px;}
-.section-buttons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-
-
-
-
-
-.gallery {
-  text-align: center;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 0;
-  grid-auto-rows: minmax(100px, auto);
-  padding: 0 5%; /* 갤러리 좌/우 패딩 */
-}
-
-.gallery img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
-  margin: 0;
-  padding: 0;
-  transition: all 0.3s ease;
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
-}
-
-.gallery img:hover {
-  transform: scale(1.05);
-  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
-}
-
 
 .btn_map{
 	background-color: #ffffff;
@@ -278,17 +213,8 @@ li {
 }
 
 
-.iw_inner h3{
-	font-style: normal;
-	font-size: 2em;
-}
-
-.iw_inner p{
-	font-style: normal;
-	font-size: 1em;
-}
 	
-.hr {
+hr {
 	width: 80%;
 	border: 5px;
 	color: #efe1ad;
