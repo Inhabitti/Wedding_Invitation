@@ -59,3 +59,26 @@ window.onclick = function(event) {
     modal2.style.display = "none";
   }
 }
+
+// 모달창 닫기 함수
+function closeModal(modal) {
+  modal.classList.remove('modal');
+}
+
+// 모든 닫기 버튼에 대해 이벤트 리스너 추가
+var closeBtns = document.querySelectorAll('.close');
+closeBtns.forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    var modal = this.closest('.modal');
+    closeModal(modal);
+  });
+});
+
+// 모든 모달창에 대해 열기 버튼에 이벤트 리스너 추가
+var openBtns = document.querySelectorAll('.btn1');
+openBtns.forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    var modal = this.nextElementSibling;
+    modal.classList.add('modal');
+  });
+});
