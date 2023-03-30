@@ -92,10 +92,11 @@
             <div>
                 <p>신랑에게 연락하기</p>
                 <hr class="hr4">
-                <div id="contact1">
+                <div class="modal show">
                     <p>신랑 <b>유환</b></p>
+                    <div class="modal_body">Modal</div>
                     <div class="button-container">
-                        <a href="#popup1" class="btn1">연락하기</a>
+                        <button class="btn1">연락하기</a>
                         <a href="#popup2" class="btn1">마음 전하기</a>
                     </div>
                 </div>
@@ -183,6 +184,28 @@
                 intervalType: 120
             });
         </script>
-</body>
+        <script>
+            const body = document.querySelector('body');
+            const modal = document.querySelector('.modal');
+            const btnOpenPopup = document.querySelector('.btn1');
 
+            btnOpenPopup.addEventListener('click', () => {
+                modal.classList.toggle('show');
+
+                if (modal.classList.contains('show')) {
+                    body.style.overflow = 'hidden';
+                }
+            });
+
+            modal.addEventListener('click', (event) => {
+                if (event.target === modal) {
+                    modal.classList.toggle('show');
+
+                    if (!modal.classList.contains('show')) {
+                        body.style.overflow = 'auto';
+                    }
+                }
+            });
+    </script>
+</body>
 </html>
