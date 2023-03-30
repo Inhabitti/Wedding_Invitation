@@ -99,12 +99,6 @@
                         <a href="" class="btn1">마음 전하기</a>
                     </div>
                 </div>
-                <div id="contact-modal" class="modal">
-                    <div class="modal-content">
-                        <span class="close-button">&times;</span>
-                        <h2>연락하기</h2>
-                    </div>
-                </div>
                 <div id="contact1">
                     <p>신랑측 혼주</p>
                     <div class="button-container">
@@ -168,28 +162,6 @@
                 map: map
             });
         </script>
-        <script>
-            var $target = document.querySelector('#target');
-            $target.addEventListener('th.afterType', function(e) {
-                console.log(e.detail.progress);
-            });
-
-            TypeHangul.type('#target', {
-                intervalType: 120
-            });
-        </script>
-        <script>
-            $(document).ready(function() {
-                $(".btn1").click(function() {
-                    $(".contact-modal").css("display", "block");
-                });
-                
-                $(".close-button").click(function() {
-                    $(".contact-modal").css("display", "none");
-                });
-            });
-       </script>
-
 </body>
 
 </html>
