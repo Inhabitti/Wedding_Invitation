@@ -164,6 +164,16 @@
                 map: map
             });
         </script>
+        <script>
+            var $target = document.querySelector('#target');
+            $target.addEventListener('th.afterType', function(e) {
+                console.log(e.detail.progress);
+            });
+
+            TypeHangul.type('#target', {
+                intervalType: 120
+            });
+        </script>
 </body>
 
 </html>
