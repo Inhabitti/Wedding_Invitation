@@ -82,3 +82,20 @@ openBtns.forEach(function(btn) {
     modal.classList.add('modal');
   });
 });
+
+// 모달 열기 버튼 클릭 시
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// 모달 닫기 버튼 클릭 시
+closeBtn.onclick = function() {
+  modal.style.display = "none";
+}
+
+// 모달 바깥 영역 클릭 시 모달 닫기
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
