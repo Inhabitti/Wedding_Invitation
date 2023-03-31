@@ -287,6 +287,21 @@ pre {
   background-color: #34495e;
 }
 
+.btn2 {
+  font-family: sans-serif;
+  background-color: #efe1ad;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn2:hover {
+  background-color: #34495e;
+}
 
 
 .modal {
