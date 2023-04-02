@@ -67,7 +67,7 @@ img {
 h1 {
 	font-size: 5em;
 	font-style: normal;
-	color: #efe1ad;
+	color: #eecc00;
 	text-align: center;
 	vertical-align: top;
 }
@@ -84,8 +84,8 @@ h2 {
   line-height: 2;
 	opacity: 0;
 	animation-name: fade-in;
-	animation-delay: 6.5s;
-	animation-duration: 3s;
+	animation-delay: 7s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
 }
 
@@ -99,15 +99,15 @@ h2 {
 }
 
 .main-name {
-  font-size: 5em;
+  font-size: 4em;
   font-style: normal;
   color: #010101;
   text-align: center;
 	margin: 0;
 	opacity: 0;
 	animation-name: fade-in;
-	animation-delay: 9.5s;
-	animation-duration: 3s;
+	animation-delay: 8s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
 }
 
@@ -225,10 +225,10 @@ p {
 
 	
 hr {
-	width: 80%;
+	width: 90%;
 	border: 4px;
 	border-style: solid;
-	color: #efe1ad;
+	color: #eecc00;
 	margin: 0 auto;
 }
 
@@ -243,12 +243,12 @@ hr {
 .hr4 {
 	border: 2px;
 	border-style: solid;
-	width: 60%;
+	width: 80%;
 }
 .hr5 {
 	border: 2px;
 	border-style: solid;
-	width: 60%;
+	width: 80%;
 }
 pre {
 	font-family: 'Gowun';
@@ -258,7 +258,7 @@ pre {
 
 #contact1 {
 	display: flex;
-	width: 60%;
+	width: 80%;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
@@ -273,7 +273,8 @@ pre {
 
 .btn1 {
   font-family: sans-serif;
-  background-color: #efe1ad;
+	font-weight: bold;
+  background-color: #eecc00;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -289,7 +290,8 @@ pre {
 
 .btn2 {
   font-family: sans-serif;
-  background-color: #efe1ad;
+  font-weight: bold;
+  background-color: #eecc00;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -327,7 +329,7 @@ pre {
 .close {
   color: #aaa;
   float: right;
-  font-size: 28px;
+  font-size: 80px;
   font-weight: bold;
 }
 
@@ -336,4 +338,15 @@ pre {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+.mbtn {
+	font-family: sans-serif;
+        font-weight: bold;
+	background-color: #fff;
+	color: #eee;
+	border: 2px;
+	padding: 10px 20px;
+        margin-right: 5px;
+	border-radius: 5px;
 }
