@@ -274,6 +274,7 @@ pre {
 .btn1 {
   font-family: sans-serif;
 	font-weight: bold;
+	font-size: 3em;
   background-color: #eecc00;
   color: #fff;
   border: none;
@@ -291,6 +292,7 @@ pre {
 .btn2 {
   font-family: sans-serif;
   font-weight: bold;
+	font-size: 3em;
   background-color: #eecc00;
   color: #fff;
   border: none;
@@ -343,10 +345,10 @@ pre {
 .mbtn {
 	font-family: sans-serif;
         font-weight: bold;
-	background-color: #fff;
-	color: #eee;
-	border: 2px;
+	background-color: #eee;
+	color: #000;
+	border: none;
 	padding: 10px 20px;
-        margin-right: 5px;
+        margin-right: 15px;
 	border-radius: 5px;
 }
