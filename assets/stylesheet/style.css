@@ -67,7 +67,7 @@ img {
 h1 {
 	font-size: 5em;
 	font-style: normal;
-	color: #eecc00;
+	color: #FFE81C;
 	text-align: center;
 	vertical-align: top;
 }
@@ -228,7 +228,7 @@ hr {
 	width: 90%;
 	border: 3px;
 	border-style: solid;
-	color: #eecc00;
+	color: #FFE81C;
 	margin: 0 auto;
 }
 
@@ -274,7 +274,7 @@ pre {
 .btn1 {
 	font-weight: bold;
 	font-size: 2em;
-  background-color: #eecc00;
+  background-color: #FFE81C;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -291,7 +291,7 @@ pre {
 .btn2 {
   font-weight: bold;
 	font-size: 2em;
-  background-color: #eecc00;
+  background-color: #FFE81C;
   color: #fff;
   border: none;
   padding: 10px 20px;
