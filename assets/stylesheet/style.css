@@ -322,10 +322,10 @@ pre {
 .modal-content {
   background-color: #fefefe;
   margin: 50% auto; 
-  padding: 100px;
-	height: auto;
+  height: 300px;
   border: 1px solid #888;
   width: 80%; 
+	text-align: center;
 }
 
 .close {
@@ -333,6 +333,7 @@ pre {
   float: right;
   font-size: 80px;
   font-weight: bold;
+	padding: 10px;
 }
 
 .close:hover,
@@ -348,8 +349,7 @@ pre {
 	background-color: #eee;
 	color: #000;
 	border: none;
-	padding: 30px 50px;
-        margin-right: 10%;
+	padding: 15px;
 	border-radius: 5px;
-	align-self: flex;
+	line-height: 300px;
 }
