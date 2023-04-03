@@ -321,7 +321,7 @@ pre {
   background-color: #fefefe;
   margin: 50% auto; 
   padding: 100px;
-	height: 50px;
+	height: auto;
   border: 1px solid #888;
   width: 80%; 
 }
