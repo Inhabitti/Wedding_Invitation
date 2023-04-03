@@ -339,3 +339,13 @@ pre {
 	border-radius: 5px;
 	line-height: 300px;
 }
+
+.mbtn2 {
+        font-weight: bold;
+	font-size: 2em;
+	background-color: #eee;
+	color: #000;
+	border: none;
+	padding: 15px;
+	border-radius: 5px;
+}
