@@ -21,7 +21,7 @@ var marker = new naver.maps.Marker({
 var zoomControl = new naver.maps.ZoomControl({
     position: naver.maps.Position.TOP_RIGHT
 });
-map.controls[naver.maps.ControlPosition.TOP_RIGHT].push(zoomControl);
+
 
 
 // Get the modal
