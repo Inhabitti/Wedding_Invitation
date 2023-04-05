@@ -113,7 +113,7 @@ function copyText(text) {
 
   // 복사 완료 알림
   var tooltip = document.getElementById("myTooltip");
-  tooltip.innerHTML = "복사 완료: " + text;
+  tooltip.innerHTML = "복사되었습니다.";
   tooltip.classList.add("show");
   setTimeout(function() {
     tooltip.classList.remove("show");
