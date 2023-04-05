@@ -328,20 +328,23 @@ pre {
 	text-align: center;
 }
 
+.modal-content p {
+	padding: 30px 30px;
+}
 
 .mbtn {
 	border: none;
-	padding: 3% 3%;
+	padding: 4% 4%;
 	border-radius: 15px;
 	line-height: 300px;
-	margin: 5%;
+	margin: 3%;
 }
 
 .mbtn2 {
 	border: none;
-	padding: 3% 3%;
+	padding: 4% 4%;
 	border-radius: 15px;
-	margin: 5%;
+	margin: 3%;
 }
 
 .mbtn:nth-of-type(1) {
