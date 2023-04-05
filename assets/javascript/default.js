@@ -98,3 +98,13 @@ window.onclick = function(event) {
 }
 
 
+function copyText(id) {
+  var text = document.getElementById(id).innerText;
+  var input = document.createElement('textarea');
+  input.value = text;
+  document.body.appendChild(input);
+  input.select();
+  document.execCommand('copy');
+  document.body.removeChild(input);
+}
+
