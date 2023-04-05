@@ -329,13 +329,20 @@ pre {
 }
 
 
-.mbtn, .mbtn2{
+.mbtn {
 	border: none;
 	padding: 3% 3%;
 	border-radius: 15px;
 	line-height: 300px;
+	margin: 5%;
 }
 
+.mbtn2 {
+	border: none;
+	padding: 3% 3%;
+	border-radius: 15px;
+	margin: 5%;
+}
 
 .mbtn:nth-of-type(1) {
         background-image: url('../../img/call.png');
@@ -344,7 +351,7 @@ pre {
 }
 
 .mbtn:nth-of-type(2) {
-        background-image: url('../../img/kakaotalk.png');
+        background-image: url('../../img/kakaotalk_logo.png');
 	background-repeat: no-repeat;
         background-size: 100% 100%;
 }
