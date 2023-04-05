@@ -116,11 +116,7 @@ function copyText(text) {
   // 텍스트 영역 제거
   document.body.removeChild(textarea);
 
-  // 복사 완료 알림
-  var tooltip = document.getElementById("myTooltip");
-  tooltip.innerHTML = "복사되었습니다.";
-  tooltip.classList.add("show");
-  setTimeout(function() {
-    tooltip.classList.remove("show");
-  }, 3000);
+  // 복사 완료 메시지 출력
+  alert("복사되었습니다.");
 }
+
