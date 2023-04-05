@@ -98,18 +98,24 @@ window.onclick = function(event) {
 }
 
 
-function copyText(id) {
-  var element = document.getElementById(id);
-  if (element) {
-    var text = element.innerText;
-    var textarea = document.createElement("textarea");
-    textarea.value = text;
-    document.body.appendChild(textarea);
-    textarea.select();
-    document.execCommand("copy");
-    document.body.removeChild(textarea);
-    alert("복사되었습니다.");
-  } else {
-    alert("요소를 찾을 수 없습니다.");
-  }
+function copyText(text) {
+  // 텍스트 영역 생성
+  var textarea = document.createElement("textarea");
+  textarea.value = text;
+  document.body.appendChild(textarea);
+
+  // 복사 실행
+  textarea.select();
+  document.execCommand("copy");
+
+  // 텍스트 영역 제거
+  document.body.removeChild(textarea);
+
+  // 복사 완료 알림
+  var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "복사 완료: " + text;
+  tooltip.classList.add("show");
+  setTimeout(function() {
+    tooltip.classList.remove("show");
+  }, 3000);
 }
