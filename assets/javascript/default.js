@@ -99,12 +99,17 @@ window.onclick = function(event) {
 
 
 function copyText(id) {
-  var text = document.getElementById(id).innerText;
-  var input = document.createElement('textarea');
-  input.value = text;
-  document.body.appendChild(input);
-  input.select();
-  document.execCommand('copy');
-  document.body.removeChild(input);
+  var element = document.getElementById(id);
+  if (element) {
+    var text = element.innerText;
+    var textarea = document.createElement("textarea");
+    textarea.value = text;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand("copy");
+    document.body.removeChild(textarea);
+    alert("복사되었습니다.");
+  } else {
+    alert("요소를 찾을 수 없습니다.");
+  }
 }
-
