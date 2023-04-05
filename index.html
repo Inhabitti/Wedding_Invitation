@@ -196,27 +196,6 @@
             });
         </script>
         <script>
-            var mapOptions = {
-                mapTypeControl: true,
-                mapTypeControlOptions: {
-                    style: naver.maps.MapTypeControlStyle.BUTTON,
-                    position: naver.maps.Position.TOP_RIGHT
-                },
-                zoomControl: true,
-                zoomControlOptions: {
-                    style: naver.maps.ZoomControlStyle.SMALL,
-                    position: naver.maps.Position.TOP_RIGHT
-                },
-                center: new naver.maps.LatLng(36.3456884, 127.3545292),
-                zoom: 12
-
-            };
-            var marker = new naver.maps.Marker({
-                position: new naver.maps.LatLng(36.3456884, 127.3545292),
-                map: map
-            });
-        </script>
-        <script>
             var $target = document.querySelector('#target');
             $target.addEventListener('th.afterType', function(e) {
                 console.log(e.detail.progress);
