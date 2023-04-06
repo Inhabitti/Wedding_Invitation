@@ -27,6 +27,14 @@ section {
 	background-color: #FFF8E3;
 }
 
+.section-in h1 {
+	color: #000;
+}
+.section-in p {
+	font-size: 3em;
+	line-height: 3;
+}
+
 .section1 {
 	position: relative;
 
