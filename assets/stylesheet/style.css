@@ -401,3 +401,8 @@ pre {
 	margin-top: 70%;
 	background-color: #FFF8E3;
 }
+table {
+	font-size: 3em; 
+	margin: auto; 
+	padding-top: 100px;
+}
