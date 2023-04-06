@@ -49,8 +49,12 @@ section1::before {
   vertical-align: middle;
 }
 
+.section-img {
+	height: auto;
+}
+
 .section2 {
-	height: 2500px;
+	height: auto;
 }
 
 .inner {
@@ -432,11 +436,12 @@ pre {
         background-size: 100% 100%;
 }
 .section-footer {
-	height: 1000px;
+	height: auto;
 }
 
 .footer {
-	margin-top: 70%;
+	padding: 10% 0 20% 0;
+    height: auto;
 	background-color: #FFF8E3;
 }
 .footerbtn {
