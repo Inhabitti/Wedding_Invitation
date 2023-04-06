@@ -337,15 +337,20 @@ pre {
     width: 80%;
     text-align: center;
     border-radius: 30px;
+    display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
 .modal-content p {
 	font-size: 2.5em;
 }
 
-.modal-content:nth-of-type(2) p {
-	margin: 1%;
-	
+.left {
+  grid-column: 1 / 2; /* 첫 번째 컬럼에 배치 */
+}
+
+.right {
+  grid-column: 2 / 3; /* 두 번째 컬럼에 배치 */
 }
 
 .mbtn {
@@ -435,3 +440,4 @@ table {
 	margin: auto; 
 	padding-top: 100px;
 }
+
