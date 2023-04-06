@@ -270,11 +270,9 @@ pre {
 
 #contact1 {
 	display: flex;
-	width: 80%;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 20px;
-	margin: 0 auto;
 }
 
 #contact1 p {
