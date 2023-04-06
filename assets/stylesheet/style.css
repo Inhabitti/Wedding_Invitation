@@ -444,6 +444,14 @@ pre {
     height: auto;
 	background-color: #FFF8E3;
 }
+
+.footer-container {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
 .footerbtn {
 	font-weight: bold;
 	font-size: 2em;
