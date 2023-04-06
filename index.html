@@ -21,6 +21,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
     <script src="assets/javascript/hangul.js"></script>
     <script src="assets/javascript/type-hangul.min.js"></script>
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script>
+        Kakao.init('bafa333413723967dee921149ea9ced1');
+        Kakao.isInitialized();  
+    </script>
 </head>
 
 <body>
@@ -193,8 +198,8 @@
                 <img src="img/flower.png" alt="" style="width: 25%; margin: auto;">
                 <p>청첩장 공유하기</p>
                 <div class="footer-container">
-                    <a href="" class="footerbtn">복사</a>
-                    <a href="" class="footerbtn">카카오톡</a>
+                    <a href="javascript:void(0);" onclick="copyText('https://oliviaboinlee.github.io/Wedding_Invitation/')" class="footerbtn">복사</a>
+                    <a href="javascript:void(0);" onclick="js:kakaoShare()" class="footerbtn">카카오톡</a>
                 </div>
             </div>
         </section>
