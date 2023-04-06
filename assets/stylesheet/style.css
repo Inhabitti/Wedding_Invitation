@@ -283,7 +283,7 @@ pre {
   font-family: 'Gowun'
 }
 
-.btn1, .btn3, .btn5, .btn7 {
+.btn1, .btn3 {
 	font-weight: bold;
 	font-size: 2em;
 	font-family: 'Gowun';
@@ -297,11 +297,11 @@ pre {
   transition: all 0.3s ease;
 }
 
-.btn1:hover, .btn3:hover, .btn5:hover, .btn7:hover {
+.btn1:hover, .btn3:hover {
   background-color: #34495e;
 }
 
-.btn2, .btn4, .btn6, .btn8 {
+.btn2, .btn4 {
   font-weight: bold;
 	font-size: 2em;
 	font-family: 'Gowun';
@@ -314,7 +314,7 @@ pre {
   transition: all 0.3s ease;
 }
 
-.btn2:hover, .btn4:hover, .btn6:hover, .btn8:hover {
+.btn2:hover, .btn4:hover {
   background-color: #34495e;
 }
 
@@ -334,7 +334,7 @@ pre {
 .modal-content {
       background-color: #fefefe;
     margin: 50% auto;
-    height: 40%;
+    height: 50%;
     border: 1px solid #888;
     width: 80%;
     text-align: center;
@@ -342,7 +342,7 @@ pre {
 }
 
 .modal-content p {
-	padding: 30px 30px;
+	padding: 20px 20px;
 }
 
 .mbtn {
