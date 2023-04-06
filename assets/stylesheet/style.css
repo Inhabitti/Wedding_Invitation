@@ -150,8 +150,9 @@ p {
 	display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #eee;
+  background-color: #FFF8E3;
   padding: 20px;
+	width: 90%;
 }
 
 #container1 p {
@@ -163,29 +164,16 @@ p {
 .btn_map{
 	background-color: #ffffff;
 	border: none;
-	border-radius: 10px;
+	border-radius: 15px;
 	color: #2e2e2e;
 	display: inline-block;
 	margin: 20px;
 	padding: 50px 50px;
 	position: relative;
 	align-self: flex-end;
-	border: 3px solid #ccc;
 	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
-.btn_map::before {
-	background-color: #2e2e2e;
-	border-radius: 10px;
-	bottom: -10px;
-	content: "";
-	left: -10px;
-	opacity: 0.2;
-	position: absolute;
-	right: -10px;
-	top: -10px;
-	z-index: -1;
-}
 
 .btn_map:hover {
   transform: scale(1.05);
@@ -288,9 +276,9 @@ pre {
   background-color: #FFE81C;
   color: #fff;
   border: none;
-  padding: 10px 20px;
+  padding: 50px 50px;
   margin-right: 50px;
-  border-radius: 5px;
+  border-radius: 15px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -306,8 +294,8 @@ pre {
   background-color: #FFE81C;
   color: #fff;
   border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
+  padding: 50px 50px;
+  border-radius: 15px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -355,7 +343,7 @@ pre {
 
 .mbtn {
         border: none;
-    padding: 15%;
+    padding: 30px 30px;
     border-radius: 15px;
     line-height: 10;
     margin: 15% 30% 15% 30%;
@@ -369,7 +357,7 @@ pre {
 
 .mbtn2 {	
         border: none;
-    padding: 15%;
+    padding: 30px 30px;
     border-radius: 15px;
     line-height: 10;
     margin: 15% 30% 15% 30%;
@@ -445,6 +433,20 @@ pre {
 	margin-top: 70%;
 	background-color: #FFF8E3;
 }
+.footerbtn {
+	font-weight: bold;
+	font-size: 2em;
+	font-family: 'Gowun';
+  background-color: #FFE81C;
+  color: #fff;
+  border: none;
+  padding: 50px 50px;
+  margin-right: 50px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
 table {
 	font-size: 3em; 
 	margin: auto; 
