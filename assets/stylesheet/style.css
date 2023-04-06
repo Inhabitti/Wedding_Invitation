@@ -338,18 +338,20 @@ pre {
 }
 
 .mbtn {
-	border: none;
-	padding: 4% 4%;
-	border-radius: 15px;
-	line-height: 300px;
-	margin: 3%;
+    border: none;
+    padding: 8%;
+    border-radius: 15px;
+    line-height: 50;
+    margin: 5%;
 }
 
-.mbtn2 {
-	border: none;
-	padding: 4% 4%;
-	border-radius: 15px;
-	margin: 3%;
+
+.mbtn2 {	
+    border: none;
+    padding: 8%;
+    border-radius: 15px;
+    line-height: 50;
+    margin: 5%;
 }
 
 .mbtn:nth-of-type(1) {
