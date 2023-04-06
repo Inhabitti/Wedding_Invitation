@@ -271,13 +271,14 @@ pre {
 
 .btn1, .btn3 {
 	font-weight: bold;
-	font-size: 2em;
+	font-size: 2.5em;
 	font-family: 'Gowun';
   background-color: #FFE81C;
   color: #fff;
   border: none;
-  padding: 50px 50px;
-  margin-right: 50px;
+  width: 300px;
+  height: 150px;
+  margin-right: 100px;
   border-radius: 15px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -289,12 +290,13 @@ pre {
 
 .btn2, .btn4 {
   font-weight: bold;
-	font-size: 2em;
+	font-size: 2.5em;
 	font-family: 'Gowun';
   background-color: #FFE81C;
   color: #fff;
   border: none;
-  padding: 50px 50px;
+  width: 300px;
+  height: 150px;
   border-radius: 15px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -331,6 +333,8 @@ pre {
 
 .modal-content p {
 	font-size: 2.5em;
+	padding: 0;
+	margin-top: 20%;
 }
 
 .left {
@@ -343,10 +347,10 @@ pre {
 
 .mbtn {
         border: none;
-    padding: 30px 30px;
+    padding: 50px;
     border-radius: 15px;
     line-height: 10;
-    margin: 15% 30% 15% 30%;
+    margin: 150px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -357,10 +361,10 @@ pre {
 
 .mbtn2 {	
         border: none;
-    padding: 30px 30px;
+    padding: 50px;
     border-radius: 15px;
     line-height: 10;
-    margin: 15% 30% 15% 30%;
+    margin: 150px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
