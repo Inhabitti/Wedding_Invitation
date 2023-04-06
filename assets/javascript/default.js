@@ -83,3 +83,15 @@ function copyText(text) {
   alert("복사되었습니다.");
 }
 
+function shareMessage() {
+    Kakao.Share.sendDefault({
+      objectType: 'Wedding Invitation',
+      text:
+        '보인 그리고 유환, 결혼합니다.',
+      link: {
+        // [내 애플리케이션] > [플랫폼] 에서 등록한 사이트 도메인과 일치해야 함
+        mobileWebUrl: 'https://oliviaboinlee.github.io',
+        webUrl: 'https://oliviaboinlee.github.io',
+      },
+    });
+  }
