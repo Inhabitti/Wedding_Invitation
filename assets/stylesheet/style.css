@@ -354,20 +354,30 @@ pre {
 }
 
 .mbtn {
-    border: none;
-    padding: 7%;
+        border: none;
+    padding: 15%;
     border-radius: 15px;
     line-height: 10;
-    margin: 5%;
+    margin: 15% 30% 15% 30%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
 }
 
 
 .mbtn2 {	
-    border: none;
-    padding: 7%;
+        border: none;
+    padding: 15%;
     border-radius: 15px;
     line-height: 10;
-    margin: 5%;
+    margin: 15% 30% 15% 30%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
 }
 
 .mbtn:nth-of-type(1) {
