@@ -322,9 +322,10 @@ pre {
 .modal-content {
       background-color: #FFF8E3;
     margin: 50% auto;
-    height: 50%;
+    height: 1000px;
     border: 1px solid #888;
-    width: 80%;
+    width: 800px;
+    max-width: 100%;
     text-align: center;
     border-radius: 30px;
     display: grid;
@@ -350,7 +351,7 @@ pre {
     padding: 50px;
     border-radius: 15px;
     line-height: 10;
-    margin: 150px;
+    margin: 40%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -364,7 +365,7 @@ pre {
     padding: 50px;
     border-radius: 15px;
     line-height: 10;
-    margin: 150px;
+    margin: 40%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
