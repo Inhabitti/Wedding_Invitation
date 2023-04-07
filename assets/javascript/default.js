@@ -97,7 +97,6 @@ window.onload = function() {
             navigator.share({
                     title: shareTitle,
                     text: shareText,
-                    url: shareURL,
                 })
                 .then(() => console.log('Successful share'))
                 .catch((error) => console.log('Error sharing', error));
