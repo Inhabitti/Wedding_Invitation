@@ -99,7 +99,7 @@ section1::before {
     color: #000;
 }
 
-.inp {
+.section-in .inp {
     font-size: 2.5em;
     line-height: 3;
 }
@@ -216,13 +216,6 @@ table {
     font-family: 'Gowun'
 }
 
-.button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
 .btn1,
 .btn3 {
     font-weight: bold;
@@ -233,6 +226,7 @@ table {
     border: none;
     width: 200px;
     height: 200px;
+    margin: 0 5% 0;
     line-height: 1.75em;
     border-radius: 50%;
     cursor: pointer;
@@ -254,6 +248,7 @@ table {
     border: none;
     width: 200px;
     height: 200px;
+    margin: 0 5% 0;
     line-height: 1.75em;
     border-radius: 50%;
     cursor: pointer;
@@ -513,8 +508,8 @@ pre {
     background-color: #e1ce83;
     color: #fff;
     border: none;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -528,13 +523,13 @@ pre {
 .footerbtn:nth-of-type(1) {
     background-image: url('../../img/copy-w.png');
     background-repeat: no-repeat;
-    background-size: 60%;
+    background-size: 35%;
     background-position: center;
 }
 
 .footerbtn:nth-of-type(2) {
     background-image: url('../../img/share.png');
     background-repeat: no-repeat;
-    background-size: 60%;
+    background-size: 40%;
     background-position: center;
 }
