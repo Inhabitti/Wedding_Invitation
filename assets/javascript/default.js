@@ -85,7 +85,7 @@ window.onload = function() {
     btnShare.addEventListener("click", function() {
 
         var shareTitle = "보인, 유환 결혼식에 초대합니다.";
-        var shareText = "2023년 5월 6일 오후 2시 대전에스가든웨딩홀";
+        var shareText = "이보인🤍이유환, 2023년 5월 6일 오후 2시 대전에스가든웨딩홀";
         var contentURL = "/Wedding_Invitation/";
         var URLPreFix = "";
 
