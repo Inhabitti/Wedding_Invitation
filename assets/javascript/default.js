@@ -1,4 +1,4 @@
-/*네이버 지도*/
+/*---------------------네이버 지도---------------------*/
 var HOME_PATH = window.HOME_PATH || '.';
 
 var WeddingHall = new naver.maps.LatLng(36.3456884, 127.3545292),
@@ -20,7 +20,7 @@ var marker = new naver.maps.Marker({
 });
 
 
-// Get the modal
+/*---------------------모달 호출---------------------*/
 var modal1 = document.getElementById("modal1");
 var modal2 = document.getElementById("modal2");
 var modal3 = document.getElementById("modal3");
@@ -33,7 +33,7 @@ var btn3 = document.querySelector(".btn3");
 var btn4 = document.querySelector(".btn4");
 
 
-// When the user clicks the button, open the modal 
+
 btn1.onclick = function() {
   modal1.style.display = "block";
 }
@@ -49,7 +49,7 @@ btn4.onclick = function() {
 
 
 
-// When the user clicks anywhere outside of the modal, close it
+
 window.onclick = function(event) {
   if (event.target == modal1) {
     modal1.style.display = "none";
@@ -65,33 +65,42 @@ window.onclick = function(event) {
   }
 }
 
-
+/*---------------------클립보드---------------------*/
 function copyText(text) {
-  // 텍스트 영역 생성
   var textarea = document.createElement("textarea");
   textarea.value = text;
   document.body.appendChild(textarea);
 
-  // 복사 실행
   textarea.select();
   document.execCommand("copy");
 
-  // 텍스트 영역 제거
   document.body.removeChild(textarea);
 
-  // 복사 완료 메시지 출력
-  alert("복사되었습니다.");
+  alert("클립보드에 복사되었습니다.");
 }
 
-function shareMessage() {
-    Kakao.Share.sendDefault({
-      objectType: 'Wedding Invitation',
-      text:
-        '보인 그리고 유환, 결혼합니다.',
-      link: {
-        // [내 애플리케이션] > [플랫폼] 에서 등록한 사이트 도메인과 일치해야 함
-        mobileWebUrl: 'https://oliviaboinlee.github.io',
-        webUrl: 'https://oliviaboinlee.github.io',
-      },
-    });
-  }
+/*---------------------네이티브 쉐어---------------------*/
+var btnShare = document.getElementByID("sharebtn");
+        btnShare.addEventListener("click", function(){
+            
+   var shareTitle = "보인, 유환 결혼식에 초대합니다.";
+            var shareText = "2023년 5월 6일 오후 2시 대전에스가든웨딩홀";
+            var contentURL = "https://oliviaboinlee.github.io/Wedding_Invitation/";
+            var URLPreFix = "";
+            
+            URLPreFix = URLPreFix + "//" + location.host;
+            
+            var shareURL = URLPreFix + contentURL;
+            
+            if (navigator.share){
+                    navigator.share({
+                        title: shareTitle,
+                        text: shareText,
+                        url: shareURL,
+                    })
+                .then(() => console.log('Successful share'))
+                .catch((error) => console.log('Error sharing', error));
+            }else{
+                alert("공유하기를 지원하지 않는 환경입니다.");
+            }
+        });
