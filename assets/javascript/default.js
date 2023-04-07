@@ -86,7 +86,7 @@ window.onload = function() {
 
         var shareTitle = "보인, 유환 결혼식에 초대합니다.";
         var shareText = "2023년 5월 6일 오후 2시 대전에스가든웨딩홀";
-        var contentURL = "https://oliviaboinlee.github.io/Wedding_Invitation/";
+        var contentURL = "/Wedding_Invitation/";
         var URLPreFix = "";
 
         URLPreFix = URLPreFix + "//" + location.host;
