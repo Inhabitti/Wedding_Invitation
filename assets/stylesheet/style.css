@@ -477,6 +477,12 @@ pre {
     text-align: left;
 }
 
+.h6 {
+    font-size: 1em;
+    text-align: right;
+    padding-bottom: 30px;
+}
+
 /*--------------------------------------푸터--------------------------------------*/
 .section-footer {
     height: auto;
