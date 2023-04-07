@@ -80,27 +80,29 @@ function copyText(text) {
 }
 
 /*---------------------네이티브 쉐어---------------------*/
-var btnShare = document.getElementByID("sharebtn");
-        btnShare.addEventListener("click", function(){
-            
-   var shareTitle = "보인, 유환 결혼식에 초대합니다.";
-            var shareText = "2023년 5월 6일 오후 2시 대전에스가든웨딩홀";
-            var contentURL = "https://oliviaboinlee.github.io/Wedding_Invitation/";
-            var URLPreFix = "";
-            
-            URLPreFix = URLPreFix + "//" + location.host;
-            
-            var shareURL = URLPreFix + contentURL;
-            
-            if (navigator.share){
-                    navigator.share({
-                        title: shareTitle,
-                        text: shareText,
-                        url: shareURL,
-                    })
+window.onload = function() {
+    var btnShare = document.getElementByID("sharebtn");
+    btnShare.addEventListener("click", function() {
+
+        var shareTitle = "보인, 유환 결혼식에 초대합니다.";
+        var shareText = "2023년 5월 6일 오후 2시 대전에스가든웨딩홀";
+        var contentURL = "https://oliviaboinlee.github.io/Wedding_Invitation/";
+        var URLPreFix = "";
+
+        URLPreFix = URLPreFix + "//" + location.host;
+
+        var shareURL = URLPreFix + contentURL;
+
+        if (navigator.share) {
+            navigator.share({
+                    title: shareTitle,
+                    text: shareText,
+                    url: shareURL,
+                })
                 .then(() => console.log('Successful share'))
                 .catch((error) => console.log('Error sharing', error));
-            }else{
-                alert("공유하기를 지원하지 않는 환경입니다.");
-            }
-        });
+        } else {
+            alert("공유하기를 지원하지 않는 환경입니다.");
+        }
+    });
+}
