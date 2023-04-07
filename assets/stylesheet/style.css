@@ -83,7 +83,7 @@ img {
 h1 {
 	font-size: 5em;
 	font-style: normal;
-	color: #e1ce83l;
+	color: #e1ce83;
 	text-align: center;
 	vertical-align: top;
 }
@@ -255,6 +255,12 @@ hr {
 	border-style: solid;
 	width: 80%;
 }
+
+.mhr {
+	width: 50%;
+	border: 2px;
+}
+
 pre {
 	font-family: 'Gowun';
 	font-size: 1em;
