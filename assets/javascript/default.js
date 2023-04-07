@@ -105,3 +105,7 @@ window.onload = function() {
         }
     });
 }
+
+if(navigator.userAgent.match('KAKAOTALK')) {
+  location.href = "https://oliviaboinlee.github.io/Wedding_Invitation/";
+}
