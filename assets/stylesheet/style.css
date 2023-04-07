@@ -494,6 +494,11 @@ pre {
     font-size: 3em;
 }
 
+.footer p {
+    font-size: 2em;
+    line-height: 2;
+}
+
 .footer-container {
     display: flex;
     justify-content: center;
