@@ -203,14 +203,14 @@ table {
 }
 
 /*--------------------------------------연락처--------------------------------------*/
-#contact1 {
+.contact {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
 }
 
-#contact1 p {
+.contact1 p {
     margin: 0;
     padding: 0;
     font-family: 'Gowun'
