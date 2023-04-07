@@ -302,7 +302,7 @@ table {
     padding: 50px;
     border-radius: 15px;
     line-height: 10;
-    margin: 40%;
+    margin: 20% 40% 40%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -316,7 +316,7 @@ table {
     padding: 50px;
     border-radius: 15px;
     line-height: 10;
-    margin: 40%;
+    margin: 20% 40% 40%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
