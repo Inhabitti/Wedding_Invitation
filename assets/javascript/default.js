@@ -101,11 +101,7 @@ window.onload = function() {
                 .then(() => console.log('Successful share'))
                 .catch((error) => console.log('Error sharing', error));
         } else {
-            alert("공유하기를 지원하지 않는 환경입니다.");
+            alert("카카오톡에서는 이 버튼이 동작하지 않습니다.ㅠㅠ 상단의 카카오톡 아이콘을 클릭하거나, 하단의 ⋮ 버튼을 이용해 주세요.");
         }
     });
-}
-
-if(navigator.userAgent.match('KAKAOTALK')) {
-  location.href = "https://oliviaboinlee.github.io/Wedding_Invitation/";
 }
