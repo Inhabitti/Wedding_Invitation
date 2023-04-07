@@ -491,15 +491,18 @@ pre {
 
 .footerbtn {
     font-weight: bold;
-    font-size: 2em;
+    font-size: 2.5em;
     font-family: 'Gowun';
     background-color: #e1ce83;
     color: #fff;
     border: none;
-    padding: 50px 50px;
-    margin-right: 50px;
+    width: 300px;
+    height: 150px;
     border-radius: 15px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
+.footerbtn:hover {
+    background-color: #f5e5a2;
+}
