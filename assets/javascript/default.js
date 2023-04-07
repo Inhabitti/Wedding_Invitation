@@ -81,7 +81,7 @@ function copyText(text) {
 
 /*---------------------네이티브 쉐어---------------------*/
 window.onload = function() {
-    var btnShare = document.getElementByID("sharebtn");
+    var btnShare = document.getElementById("sharebtn");
     btnShare.addEventListener("click", function() {
 
         var shareTitle = "보인, 유환 결혼식에 초대합니다.";
