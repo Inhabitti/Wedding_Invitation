@@ -477,7 +477,8 @@ pre {
     text-align: left;
 }
 
-.h6 {
+h6 {
+    font-family: sans-serif;
     font-size: 1em;
     text-align: right;
     padding-bottom: 30px;
@@ -489,7 +490,7 @@ pre {
 }
 
 .footer {
-    padding: 10% 0 10% 0;
+    padding: 10% 0;
     height: auto;
     background-color: #FFF8E3;
 }
