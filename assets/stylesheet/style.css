@@ -315,7 +315,6 @@ table {
     justify-content: center;
     align-items: center;
     display: flex;
-    gap: 10px;
 }
 
 
@@ -329,7 +328,6 @@ table {
     justify-content: center;
     align-items: center;
     display: flex;
-    gap: 10px;
 }
 
 .mbtn:nth-of-type(1) {
