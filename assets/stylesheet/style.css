@@ -216,6 +216,13 @@ table {
     font-family: 'Gowun'
 }
 
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
 .btn1,
 .btn3 {
     font-weight: bold;
