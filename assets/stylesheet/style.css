@@ -99,6 +99,11 @@ section1::before {
     color: #000;
 }
 
+.inp {
+    font-size: 2.5em;
+    line-height: 3;
+}
+
 .section-in p {
     font-size: 3em;
     line-height: 3;
