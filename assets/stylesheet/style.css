@@ -502,7 +502,7 @@ pre {
     background-color: #e1ce83;
     background-image: url('../../img/call-w.png');
     background-repeat: no-repeat;
-    background-size: 70%;
+    background-size: 60%;
     background-position: center;    
     border: none;
     width: 50px;
@@ -513,7 +513,9 @@ pre {
     margin: auto;
 }     
 
-
+.footer-call:hover {
+    background-color: #f5e5a2;
+}
 
 .footer-container {
     display: flex;
