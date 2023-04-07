@@ -206,33 +206,34 @@
                 <p>감사합니다, 행복이 가득한 하루 되세요🤍</p>
             </div>
         </section>
-        <script src="assets/javascript/default.js"></script>
-        <script src="assets/javascript/carousel.umd.js"></script>
-        <script src="assets/javascript/carousel.thumbs.umd.js"></script>
-        <script>
-            const container = document.getElementById("myCarousel");
-            const options = {
-                Thumbs: {
-                    type: "modern",
-                },
-                Dots: false,
-                infinite: true
-            };
+    </div>
+    <script src="assets/javascript/default.js"></script>
+    <script src="assets/javascript/carousel.umd.js"></script>
+    <script src="assets/javascript/carousel.thumbs.umd.js"></script>
+    <script>
+        const container = document.getElementById("myCarousel");
+        const options = {
+            Thumbs: {
+                type: "modern",
+            },
+            Dots: false,
+            infinite: true
+        };
 
-            new Carousel(container, options, {
-                Thumbs
-            });
-        </script>
-        <script>
-            var $target = document.querySelector('#target');
-            $target.addEventListener('th.afterType', function(e) {
-                console.log(e.detail.progress);
-            });
+        new Carousel(container, options, {
+            Thumbs
+        });
+    </script>
+    <script>
+        var $target = document.querySelector('#target');
+        $target.addEventListener('th.afterType', function(e) {
+            console.log(e.detail.progress);
+        });
 
-            TypeHangul.type('#target', {
-                intervalType: 120
-            });
-        </script>
+        TypeHangul.type('#target', {
+            intervalType: 120
+        });
+    </script>
 </body>
 
 </html>
