@@ -50,9 +50,8 @@ section1::before {
 .img-header {
     width: 80%;
     padding-top: 50px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     margin: auto;
-    opacity: 1;
 }
 
 .main-text {
