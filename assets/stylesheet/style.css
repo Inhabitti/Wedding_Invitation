@@ -50,7 +50,7 @@ section1::before {
 .img-header {
     width: 80%;
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     margin: auto;
 }
 
@@ -84,7 +84,7 @@ section1::before {
     margin: 0;
     opacity: 0;
     animation-name: fade-in;
-    animation-delay: 8s;
+    animation-delay: 8.3s;
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
