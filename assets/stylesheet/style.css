@@ -184,19 +184,19 @@ table {
 }
 
 .btn_map:nth-of-type(1) {
-    background-image: url('../../img/navermap.png');
+    background-image: url('https://i.imgur.com/CbCVPHy.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 .btn_map:nth-of-type(2) {
-    background-image: url('../../img/kakaomap.png');
+    background-image: url('https://i.imgur.com/NmYFCls.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 .btn_map:nth-of-type(3) {
-    background-image: url('../../img/tmap.jpg');
+    background-image: url('https://i.imgur.com/dGr9otP.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -330,61 +330,61 @@ table {
 }
 
 .mbtn:nth-of-type(1) {
-    background-image: url('../../img/call.png');
+    background-image: url('https://i.imgur.com/TXDwOPl.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 .mbtn:nth-of-type(2) {
-    background-image: url('../../img/kakaotalk_logo.png');
+    background-image: url('https://i.imgur.com/drnz3sP.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 .mbtn:nth-of-type(3) {
-    background-image: url('../../img/insta.png');
+    background-image: url('https://i.imgur.com/wJTt5SC.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 .mbtn:nth-of-type(4) {
-    background-image: url('../../img/call.png');
+    background-image: url('https://i.imgur.com/TXDwOPl.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 .mbtn:nth-of-type(5) {
-    background-image: url('../../img/kakaotalk_logo.png');
+    background-image: url('https://i.imgur.com/drnz3sP.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 .mbtn:nth-of-type(6) {
-    background-image: url('../../img/insta.png');
+    background-image: url('https://i.imgur.com/wJTt5SC.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 .mbtn2:nth-of-type(1) {
-    background-image: url('../../img/copy.png');
+    background-image: url('https://i.imgur.com/m3xdcJC.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 .mbtn2:nth-of-type(2) {
-    background-image: url('../../img/kpay.png');
+    background-image: url('https://i.imgur.com/KVYFVd7.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 .mbtn2:nth-of-type(3) {
-    background-image: url('../../img/copy.png');
+    background-image: url('https://i.imgur.com/m3xdcJC.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 .mbtn2:nth-of-type(4) {
-    background-image: url('../../img/kpay.png');
+    background-image: url('https://i.imgur.com/KVYFVd7.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -507,7 +507,7 @@ h6 {
 
 .footer-call {
     background-color: #e1ce83;
-    background-image: url('../../img/call-w.png');
+    background-image: url('https://i.imgur.com/tegNM4P.png');
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: center;    
@@ -552,7 +552,7 @@ h6 {
 }
 
 .footerbtn:nth-of-type(1) {
-    background-image: url('../../img/copy-w.png');
+    background-image: url('https://i.imgur.com/NEvZLKk.png');
     background-repeat: no-repeat;
     background-size: 35%;
     background-position: center;
